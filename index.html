@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<title>Veille VO Allemagne</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout : une longue page sombre en sections, chacune avec un petit libellé au-dessus d'un grand titre ;
+   les annonces en grille de fiches, comme un catalogue de voitures haut de gamme. Thème sombre unique, par choix. */
+:root {
+  --nuit: #00060f;
+  --panneau: #06101d;
+  --panneau-haut: #0a1626;
+  --trait: rgba(190, 206, 230, 0.11);
+  --trait-fort: rgba(190, 206, 230, 0.22);
+  --texte: #e8edf5;
+  --doux: #8d99ad;
+  --acier: #b8c6dc;
+  --bleu: #7ea6ff;
+  --bleu-fond: rgba(126, 166, 255, 0.10);
+  --bleu-trait: rgba(126, 166, 255, 0.32);
+  --carte-haut: #0f1b33;
+  --carte-bas: #0a1325;
+  --ok: #63d3a2;
+  --alerte: #e7b75f;
+  --panne: #ee7070;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --corps: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --chiffres: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: radial-gradient(1200px 600px at 70% -10%, rgba(40, 70, 140, 0.18), transparent 60%), var(--nuit);
+  color: var(--texte);
+  font-family: var(--corps);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--nuit); }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--acier); outline-offset: 3px; border-radius: 2px; }
+.cadre {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* En-tête */
+.entete {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: rgba(0, 6, 15, 0.86);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--trait);
+}
+.entete .cadre { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
+.marque { font-family: var(--display); font-stretch: 125%; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; font-size: 14px; text-decoration: none; }
+.marque span { color: var(--doux); font-weight: 400; }
+.nav { display: flex; gap: 22px; font-size: 13px; color: var(--doux); }
+.nav a { text-decoration: none; transition: color .2s; }
+.nav a:hover { color: var(--texte); }
+@media (max-width: 720px) { .nav { display: none; } }
+
+/* Ouverture */
+.ouverture { padding-block: 72px 56px; border-bottom: 1px solid var(--trait); }
+.libelle { font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--doux); font-weight: 600; }
+h1 {
+  font-family: var(--display); font-stretch: 125%; font-weight: 600;
+  font-size: clamp(38px, 7vw, 88px); line-height: 0.98; letter-spacing: -0.02em;
+  margin: 18px 0 0; text-wrap: balance;
+}
+h1 em { font-style: normal; color: var(--doux); font-weight: 300; }
+.bilan { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin-top: 52px; border-top: 1px solid var(--trait); }
+.bilan > div { padding: 20px 20px 4px 0; }
+.bilan > div + div { padding-left: 20px; border-left: 1px solid var(--trait); }
+.bilan .chiffre { font-family: var(--display); font-stretch: 112%; font-size: clamp(30px, 4vw, 44px); font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; }
+.bilan .chiffre.vert { color: var(--ok); }
+.bilan .legende { font-size: 13px; color: var(--doux); margin-top: 8px; }
+@media (max-width: 720px) {
+  .bilan { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bilan > div:nth-child(3) { padding-left: 0; border-left: 0; }
+  .bilan > div:nth-child(n+3) { border-top: 1px solid var(--trait); }
+}
+.criteres { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.puce { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--trait-fort); border-radius: 999px; padding: 5px 12px; font-size: 12.5px; color: var(--acier); white-space: nowrap; }
+.puce b { color: var(--texte); font-weight: 600; font-family: var(--chiffres); font-size: 12px; }
+
+/* Sections */
+section.bloc { padding-block: 72px; border-bottom: 1px solid var(--trait); }
+.titre-bloc { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
+h2 { font-family: var(--display); font-stretch: 118%; font-weight: 500; font-size: clamp(28px, 4vw, 46px); line-height: 1.05; letter-spacing: -0.015em; margin: 12px 0 0; text-wrap: balance; }
+.sous-titre { color: var(--doux); max-width: 60ch; margin: 12px 0 0; }
+
+/* Vide « dans vos critères » */
+.vide { border: 1px solid var(--trait); border-radius: 22px; background: linear-gradient(180deg, var(--carte-haut), var(--carte-bas)); padding: 32px; display: grid; gap: 18px; }
+.vide p { margin: 0; font-size: 17px; }
+.vide .proche { color: var(--doux); font-size: 14.5px; }
+.vide .proche a { color: var(--texte); }
+
+/* Filtres */
+.filtres { display: flex; flex-wrap: wrap; gap: 8px; }
+.filtre { appearance: none; background: transparent; color: var(--doux); border: 1px solid var(--trait-fort); border-radius: 999px; padding: 8px 16px; font: 600 13px var(--corps); cursor: pointer; transition: all .2s; }
+.filtre:hover { color: var(--texte); border-color: var(--acier); }
+.filtre[aria-pressed="true"] { background: var(--bleu-fond); color: var(--texte); border-color: var(--bleu); }
+.bascule { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--doux); cursor: pointer; margin-left: 4px; }
+.bascule input { accent-color: var(--acier); }
+
+/* Résumé par modèle */
+.modeles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--trait); border-radius: 22px; background: linear-gradient(180deg, var(--carte-haut), var(--carte-bas)); margin-bottom: 28px; overflow: hidden; }
+.modele { padding: 22px 24px; display: grid; gap: 6px; }
+.modele + .modele { border-left: 1px solid var(--trait); }
+.modele h3 { margin: 0; font-family: var(--display); font-stretch: 112%; font-size: 20px; font-weight: 600; }
+.modele .ligne { font-size: 13.5px; color: var(--doux); font-variant-numeric: tabular-nums; }
+.modele .ligne b { color: var(--texte); font-weight: 600; }
+@media (max-width: 820px) { .modeles { grid-template-columns: 1fr; } .modele + .modele { border-left: 0; border-top: 1px solid var(--trait); } }
+
+/* Fiches véhicules */
+.grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 22px; }
+.fiche { background: linear-gradient(180deg, var(--carte-haut), var(--carte-bas)); border: 1px solid var(--trait); border-radius: 22px; overflow: hidden; display: flex; flex-direction: column; transition: border-color .25s, transform .25s, box-shadow .25s; min-width: 0; }
+.fiche:hover { border-color: var(--bleu-trait); transform: translateY(-3px); box-shadow: 0 18px 40px -18px rgba(60, 100, 220, 0.45); }
+.fiche.vendue { opacity: .6; }
+.photo { position: relative; aspect-ratio: 16 / 10; max-width: 100%; overflow: hidden; }
+.photo svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.badge { position: absolute; top: 14px; right: 14px; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--bleu); background: rgba(8, 16, 34, 0.72); border: 1px solid var(--bleu-trait); border-radius: 999px; padding: 5px 12px; }
+.badge.ok { color: var(--ok); border-color: currentColor; }
+.fiche .haut { padding: 22px 26px 0; display: grid; gap: 4px; }
+.fiche .sur { font-size: 11.5px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--doux); font-weight: 700; }
+.fiche h3 { margin: 6px 0 0; font-family: var(--display); font-stretch: 100%; font-size: 23px; font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; }
+.fiche .version { color: var(--doux); font-size: 14px; overflow-wrap: anywhere; }
+.fiche .specs { display: flex; flex-wrap: wrap; gap: 8px 18px; padding: 16px 26px 0; color: var(--acier); font-size: 14px; font-variant-numeric: tabular-nums; }
+.fiche .specs span { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+.fiche .specs svg { width: 16px; height: 16px; stroke: var(--bleu); fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.fiche .etat { padding: 14px 26px 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.etiquette { font-size: 11.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+.etiquette.ok { color: var(--ok); }
+.etiquette.ecart { color: var(--alerte); }
+.etiquette.neutre { color: var(--acier); border-color: var(--trait-fort); }
+.etiquette.danger { color: var(--panne); }
+.fiche .prix { margin: 18px 26px 0; padding-top: 16px; border-top: 1px solid var(--trait); display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+.fiche .espace { flex: 1; min-height: 18px; }
+.fiche .montant small { display: block; font-family: var(--corps); font-size: 11px; color: var(--doux); font-weight: 600; margin-bottom: 6px; letter-spacing: 0.12em; text-transform: uppercase; }
+.fiche .montant .valeur { font-family: var(--chiffres); font-size: 25px; font-weight: 500; color: var(--bleu); line-height: 1; font-variant-numeric: tabular-nums; }
+.fiche .montant s { color: var(--doux); font-size: 12px; margin-left: 6px; font-family: var(--chiffres); }
+.bouton { display: inline-flex; align-items: center; gap: 6px; color: var(--texte); text-decoration: none; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; background: var(--bleu-fond); border: 1px solid var(--bleu-trait); border-radius: 999px; padding: 9px 16px; white-space: nowrap; transition: background .2s, border-color .2s; }
+.bouton:hover { background: rgba(126, 166, 255, 0.2); border-color: var(--bleu); }
+.fiche .bas { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 26px 22px; font-size: 12.5px; color: var(--doux); }
+.fiche svg.courbe { width: 96px; height: 26px; flex: none; }
+.lien { color: var(--texte); text-decoration: none; font-weight: 600; white-space: nowrap; border-bottom: 1px solid var(--trait-fort); padding-bottom: 1px; transition: border-color .2s; }
+.lien:hover { border-color: var(--texte); }
+.rien { color: var(--doux); padding: 28px 0; }
+
+/* Événements */
+.jours { display: grid; gap: 28px; }
+.jour { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--trait); padding-top: 18px; }
+.jour .date { font-family: var(--display); font-stretch: 112%; font-size: 15px; font-weight: 600; text-transform: capitalize; }
+.jour ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.jour li { display: flex; gap: 12px; align-items: baseline; min-width: 0; }
+.jour li .type { flex: none; width: 92px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--doux); font-weight: 600; }
+.jour li .type.baisse { color: var(--ok); }
+.jour li .type.retrait_rapide, .jour li .type.retrait { color: var(--alerte); }
+.jour li .txt { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 640px) { .jour { grid-template-columns: 1fr; gap: 10px; } .jour li { flex-direction: column; gap: 2px; } }
+
+/* Concessionnaires */
+.tableau { overflow-x: auto; border: 1px solid var(--trait); border-radius: 22px; background: linear-gradient(180deg, var(--carte-haut), var(--carte-bas)); }
+table { width: 100%; border-collapse: collapse; min-width: 760px; font-size: 14px; }
+th { text-align: left; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--doux); font-weight: 600; padding: 14px 16px; border-bottom: 1px solid var(--trait); }
+td { padding: 16px; border-bottom: 1px solid var(--trait); vertical-align: middle; }
+tr:last-child td { border-bottom: 0; }
+td.n, th.n { text-align: right; font-family: var(--chiffres); font-variant-numeric: tabular-nums; }
+td .nom { font-weight: 600; }
+td .ville { color: var(--doux); font-size: 12.5px; }
+.statut { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; }
+.statut::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.statut.ok { color: var(--ok); } .statut.attention { color: var(--alerte); } .statut.chute, .statut.panne { color: var(--panne); }
+td svg { width: 120px; height: 30px; display: block; }
+.note { color: var(--doux); font-size: 13px; margin-top: 16px; max-width: 75ch; }
+
+/* Grande image sous le titre : autoroute de nuit en pose longue, dessinée en canvas */
+.visuel { position: relative; margin-top: 40px; aspect-ratio: 21 / 9; max-width: 100%; overflow: hidden; border: 1px solid var(--trait); border-radius: 22px; background: var(--panneau); }
+.visuel canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.visuel .tag { position: absolute; left: 20px; bottom: 16px; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--acier); font-weight: 600; }
+@media (max-width: 720px) { .visuel { aspect-ratio: 4 / 3; } }
+
+footer { padding-block: 40px 56px; color: var(--doux); font-size: 13px; }
+footer .cadre { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.erreur { border: 1px solid var(--panne); color: var(--texte); padding: 20px; margin-top: 32px; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="entete">
+  <div class="cadre">
+    <a class="marque" href="#haut">Veille VO <span>Allemagne</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#criteres">Vos critères</a>
+      <a href="#modeles">Vos modèles</a>
+      <a href="#evenements">Événements</a>
+      <a href="#sources">Concessionnaires</a>
+    </nav>
+  </div>
+</header>
+
+<main id="haut">
+  <div class="ouverture">
+    <div class="cadre">
+      <div class="libelle">Golf 7 GTI · BMW 330i · Leon Cupra</div>
+      <h1 id="titre">Le marché allemand, <em>chaque matin.</em></h1>
+      <div class="visuel" role="img" aria-label="Autoroute de nuit, traînées de phares et de feux arrière vers l'horizon">
+        <canvas id="route"></canvas>
+        <span class="tag">Allemagne → France</span>
+      </div>
+      <div class="bilan" id="bilan" aria-live="polite">
+        <div><div class="chiffre">–</div><div class="legende">dans vos critères</div></div>
+        <div><div class="chiffre">–</div><div class="legende">de vos modèles en vente</div></div>
+        <div><div class="chiffre">–</div><div class="legende">annonces suivies</div></div>
+        <div><div class="chiffre">–</div><div class="legende">concessionnaires lus</div></div>
+      </div>
+      <div class="criteres" id="puces"></div>
+      <div id="erreur"></div>
+    </div>
+  </div>
+
+  <section class="bloc" id="criteres">
+    <div class="cadre">
+      <div class="titre-bloc">
+        <div>
+          <div class="libelle">Dans vos critères</div>
+          <h2>Les voitures à regarder</h2>
+        </div>
+      </div>
+      <div id="retenues"></div>
+    </div>
+  </section>
+
+  <section class="bloc" id="modeles">
+    <div class="cadre">
+      <div class="titre-bloc">
+        <div>
+          <div class="libelle">Vos modèles</div>
+          <h2>Tout ce qui est en vente</h2>
+          <p class="sous-titre" id="semaine"></p>
+        </div>
+        <div class="filtres" role="group" aria-label="Filtrer par modèle" id="filtres"></div>
+      </div>
+      <div class="modeles" id="resume-modeles"></div>
+      <label class="bascule" for="voir-vendues"><input type="checkbox" id="voir-vendues"> Afficher aussi les voitures vendues</label>
+      <div class="grille" id="grille" style="margin-top:18px"></div>
+    </div>
+  </section>
+
+  <section class="bloc" id="evenements">
+    <div class="cadre">
+      <div class="titre-bloc">
+        <div>
+          <div class="libelle">Événements</div>
+          <h2>Ce qui a bougé</h2>
+          <p class="sous-titre">Baisses de prix, ventes de vos modèles, modèles rares et rafales de publications, sur les 14 derniers passages.</p>
+        </div>
+      </div>
+      <div class="jours" id="jours"></div>
+    </div>
+  </section>
+
+  <section class="bloc" id="sources">
+    <div class="cadre">
+      <div class="titre-bloc">
+        <div>
+          <div class="libelle">Concessionnaires</div>
+          <h2>Les sources, une par une</h2>
+        </div>
+      </div>
+      <div class="tableau">
+        <table>
+          <thead><tr><th>Concessionnaire</th><th>Lecture de ce matin</th><th class="n">En stock</th><th class="n">Arrivées 7 j</th><th class="n">Vendues 7 j</th><th class="n">Baisses 7 j</th><th>Annonces lues</th><th></th></tr></thead>
+          <tbody id="lignes-sources"></tbody>
+        </table>
+      </div>
+      <p class="note">Une lecture partielle arrive quand mobile.de sert plusieurs versions de ses pages pendant la lecture. Dans ce cas, une annonce absente n'est comptée vendue qu'après 3 passages de suite sans la voir.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="cadre">
+    <span>Données lues sur les pages concessionnaires mobile.de. Mise à jour chaque matin vers 7 h.</span>
+    <span id="maj"></span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const nf = new Intl.NumberFormat("fr-FR");
+  const euros = (v) => (v == null ? "prix ?" : nf.format(v) + " €");
+  const km = (v) => (v == null ? "km ?" : nf.format(v) + " km");
+  const jourLong = (d) => new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+  const jours = (a, b) => Math.round((new Date(b) - new Date(a)) / 86400000);
+  const BOITE = { DSG: "DSG", automatique: "Automatique", manuelle: "Manuelle" };
+
+  function courbe(points, w, h) {
+    const vals = points.map((p) => p.v);
+    if (vals.length < 2) return "";
+    const min = Math.min(...vals), max = Math.max(...vals), pad = 3;
+    const x = (i) => pad + (i * (w - 2 * pad)) / (vals.length - 1);
+    const y = (v) => (max === min ? h / 2 : pad + ((max - v) * (h - 2 * pad)) / (max - min));
+    const d = vals.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1)).join(" ");
+    const aire = d + ` L${x(vals.length - 1).toFixed(1)} ${h} L${x(0).toFixed(1)} ${h} Z`;
+    const dx = x(vals.length - 1), dy = y(vals[vals.length - 1]);
+    return `<svg class="courbe" viewBox="0 0 ${w} ${h}" aria-hidden="true">
+      <path d="${aire}" fill="var(--acier)" fill-opacity="0.08"></path>
+      <path d="${d}" fill="none" stroke="var(--acier)" stroke-width="1.4"></path>
+      <circle cx="${dx}" cy="${dy}" r="2.6" fill="var(--texte)"></circle></svg>`;
+  }
+
+  // Silhouettes de profil, dessinées pour le studio de chaque fiche (pas de photo disponible des annonces).
+  const CAISSES = {
+    compacte: { corps: "M40 196 L43 172 Q49 158 74 154 L148 146 Q190 104 246 92 L398 89 Q430 91 452 118 L488 156 Q516 160 524 176 L527 196 Z",
+                vitres: "M168 145 Q200 112 248 103 L396 101 Q420 103 438 124 L458 146 Z", roues: [138, 432] },
+    berline:  { corps: "M30 196 L33 176 Q39 162 64 158 L156 148 Q200 104 256 96 L370 94 Q402 97 428 124 L456 148 L512 152 Q536 156 541 174 L543 196 Z",
+                vitres: "M176 147 Q210 112 258 106 L366 104 Q392 106 412 128 L430 147 Z", roues: [132, 446] },
+    break:    { corps: "M34 196 L37 172 Q43 158 68 154 L146 147 Q190 104 244 92 L470 89 Q496 92 506 118 L516 160 Q526 168 526 196 Z",
+                vitres: "M166 146 Q200 112 246 103 L466 101 Q484 103 490 124 L496 146 Z", roues: [134, 436] },
+  };
+  function caisse(v) {
+    if (v.modele_cible === "bmw330i") return /touring/i.test(v.version || "") ? "break" : "berline";
+    if (v.modele_cible === "leoncupra") return /\b(ST|Sportstourer)\b/i.test(v.version || "") ? "break" : "compacte";
+    return "compacte";
+  }
+  const NOM_CAISSE = { compacte: "Compacte", berline: "Berline", break: "Break" };
+  let nPhoto = 0;
+  function studio(v) {
+    const c = CAISSES[caisse(v)], id = "p" + (nPhoto++);
+    const lueur = v.criteres === "retenu" && v.actif ? "99,211,162" : v.modele_cible === "bmw330i" ? "90,140,255" : "230,40,40";
+    const roue = (x) => `<g><circle cx="${x}" cy="190" r="34" fill="#07090d"></circle><circle cx="${x}" cy="190" r="22" fill="#1d222b" stroke="#3a414d" stroke-width="2"></circle>
+      <circle cx="${x}" cy="190" r="6" fill="#4a5260"></circle></g>`;
+    return `<svg viewBox="0 0 560 350" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <radialGradient id="${id}f" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#3a3d44"></stop><stop offset="0.6" stop-color="#1a1c21"></stop><stop offset="1" stop-color="#0c0d10"></stop></radialGradient>
+        <radialGradient id="${id}l" cx="8%" cy="62%" r="55%"><stop offset="0" stop-color="rgb(${lueur})" stop-opacity="0.55"></stop><stop offset="1" stop-color="rgb(${lueur})" stop-opacity="0"></stop></radialGradient>
+        <linearGradient id="${id}s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b2f37"></stop><stop offset="1" stop-color="#121418"></stop></linearGradient>
+        <linearGradient id="${id}c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a505c"></stop><stop offset="0.35" stop-color="#22262e"></stop><stop offset="1" stop-color="#0b0d11"></stop></linearGradient>
+        <linearGradient id="${id}v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5c6778"></stop><stop offset="0.5" stop-color="#151a22"></stop><stop offset="1" stop-color="#2a3240"></stop></linearGradient>
+      </defs>
+      <rect width="560" height="350" fill="url(#${id}f)"></rect>
+      <rect y="236" width="560" height="114" fill="url(#${id}s)"></rect>
+      <rect width="560" height="350" fill="url(#${id}l)"></rect>
+      <g transform="translate(48 66) scale(0.83)">
+        <ellipse cx="282" cy="226" rx="250" ry="16" fill="#000" opacity="0.65"></ellipse>
+        <path d="${c.corps}" fill="url(#${id}c)" stroke="rgba(220,228,240,0.35)" stroke-width="1.2"></path>
+        <path d="${c.vitres}" fill="url(#${id}v)" opacity="0.9"></path>
+        <path d="M60 170 L520 170" stroke="rgba(220,228,240,0.10)" stroke-width="1.5"></path>
+        <ellipse cx="${c.roues[1] > 440 ? 526 : 520}" cy="166" rx="9" ry="4" fill="#fff6e8" opacity="0.95"></ellipse>
+        <rect x="38" y="160" width="12" height="7" rx="2" fill="#ff3b30" opacity="0.9"></rect>
+        ${c.roues.map(roue).join("")}
+      </g>
+    </svg>`;
+  }
+  const ICONES = {
+    annee: '<svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg>',
+    km: '<svg viewBox="0 0 24 24"><path d="M4.5 17a8 8 0 1 1 15 0"></path><path d="M12 13l4-4"></path></svg>',
+    ch: '<svg viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"></path></svg>',
+  };
+
+  function fiche(v, date) {
+    const details = [v.finition, v.phase ? "Phase " + v.phase : null, BOITE[v.transmission] || null].filter(Boolean);
+    const etiquettes = [];
+    if (!v.actif) etiquettes.push(`<span class="etiquette neutre">Vendue le ${esc(new Date(v.retiree_le + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" }))}</span>`);
+    (v.ecarts || []).forEach((e) => etiquettes.push(`<span class="etiquette ecart">${esc({ prix: "Prix ", km: "", annee: "Année " }[e.champ] + e.texte)}</span>`));
+    if (v.accidente) etiquettes.push('<span class="etiquette danger">Accidentée selon l\'annonce</span>');
+    if (v.toit_ouvrant) etiquettes.push('<span class="etiquette neutre">Toit ouvrant</span>');
+    const hist = (v.historique_prix || []).filter((p) => p.prix != null).map((p) => ({ v: p.prix }));
+    const premier = hist.length ? hist[0].v : null;
+    const fin = v.actif ? date : v.retiree_le;
+    const duree = v.premiere_vue ? jours(v.premiere_vue, fin) : null;
+    const dureeTxt = duree == null ? "" : v.actif ? (duree === 0 ? "Nouvelle aujourd'hui" : `En ligne depuis ${duree} j`) : `Restée ${duree} j en ligne`;
+    const retenue = v.actif && v.criteres === "retenu";
+    return `<article class="fiche${v.actif ? "" : " vendue"}">
+      <div class="photo">${studio(v)}<span class="badge${retenue ? " ok" : ""}">${retenue ? "Dans vos critères" : esc(NOM_CAISSE[caisse(v)])}</span></div>
+      <div class="haut">
+        <div class="sur">${esc(v.marque)}</div>
+        <h3>${esc(v.nom_modele)}</h3>
+        <div class="version">${esc(details.join(" · ") || v.version || "")}</div>
+      </div>
+      <div class="specs">
+        <span>${ICONES.annee}${esc(v.annee ?? "?")}</span>
+        <span>${ICONES.km}${esc(km(v.km))}</span>
+        <span>${ICONES.ch}${v.puissance_ch ? esc(v.puissance_ch + " ch") : "?"}</span>
+      </div>
+      ${etiquettes.length ? `<div class="etat">${etiquettes.join("")}</div>` : ""}
+      <div class="espace"></div>
+      <div class="prix">
+        <div class="montant"><small>Prix affiché</small><span class="valeur">${esc(euros(v.prix))}</span>${premier != null && premier !== v.prix ? `<s>${esc(euros(premier))}</s>` : ""}</div>
+        ${v.url ? `<a class="bouton" href="${esc(v.url)}" target="_blank" rel="noopener">Voir l'annonce →</a>` : ""}
+      </div>
+      <div class="bas"><span>${esc(v.vendeur)}, ${esc(v.localisation)} · ${esc(dureeTxt)}</span>${courbe(hist, 96, 26)}</div>
+    </article>`;
+  }
+
+  function plusProche(vehicules) {
+    // l'annonce en vente qui ne rate vos critères que d'un seul point, et de peu
+    const c = vehicules.filter((v) => v.actif && v.ecarts && v.ecarts.length === 1 && v.ecarts[0].champ !== "annee");
+    const score = (v) => (v.ecarts[0].champ === "prix" ? (v.prix - D.criteres.prix_max_eur) / D.criteres.prix_max_eur : (v.km - D.criteres.km_max) / D.criteres.km_max);
+    c.sort((a, b) => score(a) - score(b));
+    return c[0];
+  }
+
+  let D = null, filtre = "tous";
+
+  function rendreGrille() {
+    const voirVendues = $("voir-vendues").checked;
+    const liste = D.vehicules.filter((v) => (filtre === "tous" || v.modele_cible === filtre) && (v.actif || voirVendues));
+    $("grille").innerHTML = liste.length ? liste.map((v) => fiche(v, D.date)).join("") : '<p class="rien">Aucune voiture de ce modèle en vente dans vos sources en ce moment.</p>';
+  }
+
+  function rendre(d) {
+    D = d;
+    const c = d.criteres;
+    const actifs = d.vehicules.filter((v) => v.actif);
+    const retenues = actifs.filter((v) => v.criteres === "retenu");
+    const lus = d.sources.filter((s) => s.verdict !== "panne").length;
+
+    $("titre").innerHTML = `Le marché allemand, <em>${esc(jourLong(d.date))}.</em>`;
+    const chiffres = [[retenues.length, retenues.length ? "vert" : ""], [actifs.length, ""], [nf.format(d.annonces_suivies), ""], [`${lus}/${d.sources.length}`, ""]];
+    $("bilan").querySelectorAll(".chiffre").forEach((el, i) => { el.textContent = chiffres[i][0]; if (chiffres[i][1]) el.classList.add(chiffres[i][1]); });
+    $("puces").innerHTML = [
+      `Prix <b>${esc(nf.format(c.prix_min_eur))} – ${esc(nf.format(c.prix_max_eur))} €</b>`,
+      `Kilométrage <b>≤ ${esc(nf.format(c.km_max))} km</b>`,
+      `Mise en circulation <b>${esc(c.annee_min)} et après</b>`,
+    ].map((t) => `<span class="puce">${t}</span>`).join("");
+
+    if (retenues.length) {
+      $("retenues").innerHTML = `<div class="grille">${retenues.map((v) => fiche(v, d.date)).join("")}</div>`;
+    } else {
+      const p = plusProche(d.vehicules);
+      $("retenues").innerHTML = `<div class="vide"><p>Aucune voiture dans vos critères ce matin.</p>${p ? `<div class="proche">La plus proche : <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.nom_modele)} ${esc(p.annee)}, ${esc(km(p.km))}, ${esc(euros(p.prix))}</a> chez ${esc(p.vendeur)}, ${p.ecarts[0].champ === "prix" ? "à " + esc(p.ecarts[0].texte.replace("+", "")) + " au-dessus de votre prix maximum" : "avec " + esc(p.ecarts[0].texte.replace("+", "")) + " de trop"}.</div>` : ""}</div>`;
+    }
+
+    const fmt = (x) => new Date(x + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long" });
+    $("semaine").textContent = `Les chiffres de la semaine couvrent du ${fmt(d.semaine.debut)} au ${fmt(d.semaine.fin)}.`;
+    const ids = Object.keys(d.modeles);
+    $("filtres").innerHTML = [["tous", "Tous"], ...ids.map((k) => [k, d.modeles[k].nom])]
+      .map(([k, n]) => `<button type="button" class="filtre" id="filtre-${k}" data-f="${k}" aria-pressed="${k === filtre}">${esc(n)}</button>`).join("");
+    $("resume-modeles").innerHTML = ids.map((k) => {
+      const m = d.modeles[k];
+      return `<div class="modele"><h3>${esc(m.nom)}</h3>
+        <div class="ligne"><b>${m.en_stock}</b> en vente${m.prix_min != null ? `, dès <b>${esc(euros(m.prix_min))}</b>` : ""}</div>
+        <div class="ligne">Cette semaine : ${m.arrivees} arrivée${m.arrivees > 1 ? "s" : ""}, ${m.vendues} vendue${m.vendues > 1 ? "s" : ""}, ${m.baisses_prix} baisse${m.baisses_prix > 1 ? "s" : ""} de prix</div></div>`;
+    }).join("");
+    rendreGrille();
+
+    const parJour = {};
+    d.evenements.forEach((e) => (parJour[e.date] = parJour[e.date] || []).push(e));
+    const TYPES = { baisse: "Baisse", retrait_rapide: "Vendue vite", retrait: "Vendue", rare: "Rare", rafale: "Rafale" };
+    const dates = Object.keys(parJour).sort().reverse();
+    $("jours").innerHTML = dates.length ? dates.map((j) => `<div class="jour"><div class="date">${esc(jourLong(j))}</div><ul>${parJour[j].map((e) =>
+      `<li><span class="type ${esc(e.type)}">${esc(TYPES[e.type] || e.type)}</span><span class="txt">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.texte)}</a>` : esc(e.texte)}</span></li>`).join("")}</ul></div>`).join("")
+      : '<p class="rien">Rien de notable sur les derniers passages.</p>';
+
+    const STATUT = { ok: "Complète", attention: "Partielle", chute: "Chute anormale", panne: "En panne" };
+    $("lignes-sources").innerHTML = d.sources.map((s) => `<tr>
+      <td><div class="nom">${esc(s.nom)}</div><div class="ville">${esc(s.ville)}</div></td>
+      <td><span class="statut ${esc(s.verdict)}" title="${esc(s.message)}">${esc(STATUT[s.verdict] || s.verdict)}</span></td>
+      <td class="n">${s.en_stock ?? "–"}</td><td class="n">${s.arrivees ?? "–"}</td><td class="n">${s.vendues ?? "–"}</td><td class="n">${s.baisses_prix ?? "–"}</td>
+      <td>${courbe(s.volumes.map((h) => ({ v: h.uniques })), 120, 30).replace('class="courbe"', "")}</td>
+      <td><a class="lien" href="${esc(s.url)}" target="_blank" rel="noopener">Page mobile.de →</a></td></tr>`).join("");
+
+    const g = new Date(d.genere_le);
+    $("maj").textContent = "Dernière mise à jour : " + g.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) + " à " + g.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+  }
+
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest(".filtre");
+    if (!b || !D) return;
+    filtre = b.dataset.f;
+    document.querySelectorAll(".filtre").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    try { localStorage.setItem("veille-filtre", filtre); } catch (_) {}
+    rendreGrille();
+  });
+  $("voir-vendues").addEventListener("change", () => D && rendreGrille());
+  try { filtre = localStorage.getItem("veille-filtre") || "tous"; } catch (_) {}
+
+  fetch("data.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((d) => { if (filtre !== "tous" && !d.modeles[filtre]) filtre = "tous"; rendre(d); })
+    .catch(() => { $("erreur").innerHTML = '<div class="erreur">Les données du jour n\'ont pas pu être chargées. Rechargez la page ; si le problème continue, la veille de ce matin n\'a peut-être pas encore tourné.</div>'; });
+})();
+</script>
+
+<script>
+(function () {
+  // Autoroute de nuit en pose longue : phares blancs qui arrivent à gauche, feux rouges qui s'éloignent à droite.
+  const cv = document.getElementById("route");
+  if (!cv) return;
+  const ctx = cv.getContext("2d");
+  const calme = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let graine = 7;
+  const alea = () => ((graine = (graine * 16807) % 2147483647) / 2147483647);
+  let traces = [], lampes = [], W = 0, H = 0;
+
+  function preparer() {
+    const r = cv.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = cv.width = Math.round(r.width * dpr); H = cv.height = Math.round(r.height * dpr);
+    graine = 7; traces = []; lampes = [];
+    const voies = [-0.62, -0.44, -0.27, 0.27, 0.44, 0.62];
+    voies.forEach((v, i) => {
+      const n = 3 + Math.floor(alea() * 3);
+      for (let k = 0; k < n; k++) {
+        traces.push({ x: v + (alea() - 0.5) * 0.07, cote: v < 0 ? "phare" : "feu", largeur: 0.6 + alea() * 1.6,
+                      vitesse: 0.4 + alea() * 0.6, decal: alea() * 1000, trou: 40 + alea() * 160 });
+      }
+    });
+    for (let k = 1; k <= 9; k++) lampes.push(Math.pow(k / 9, 1.8));
+  }
+
+  function dessiner(t) {
+    const vx = W * 0.5, vy = H * 0.44;
+    ctx.globalCompositeOperation = "source-over";
+    const ciel = ctx.createLinearGradient(0, 0, 0, H);
+    ciel.addColorStop(0, "#00060f"); ciel.addColorStop(0.40, "#0b1830"); ciel.addColorStop(0.46, "#14243d");
+    ciel.addColorStop(0.47, "#03080f"); ciel.addColorStop(1, "#010409");
+    ctx.fillStyle = ciel; ctx.fillRect(0, 0, W, H);
+    const halo = ctx.createRadialGradient(vx, vy, 0, vx, vy, W * 0.45);
+    halo.addColorStop(0, "rgba(255,190,140,0.20)"); halo.addColorStop(1, "rgba(255,190,140,0)");
+    ctx.fillStyle = halo; ctx.fillRect(0, 0, W, H);
+    // collines lointaines
+    ctx.fillStyle = "#050c18"; ctx.beginPath(); ctx.moveTo(0, vy);
+    for (let x = 0; x <= W; x += W / 24) ctx.lineTo(x, vy - (Math.sin(x / W * 9) * 0.5 + Math.sin(x / W * 23) * 0.3 + 0.9) * H * 0.025);
+    ctx.lineTo(W, vy + 2); ctx.lineTo(0, vy + 2); ctx.fill();
+    // bords de route et glissière
+    ctx.strokeStyle = "rgba(184,198,220,0.16)"; ctx.lineWidth = Math.max(1, W / 900);
+    [[-1.15, 1], [1.15, 1], [0, 1]].forEach(([b]) => { ctx.beginPath(); ctx.moveTo(vx, vy); ctx.lineTo(vx + b * W * 0.6, H); ctx.stroke(); });
+    ctx.globalCompositeOperation = "lighter";
+    // lampadaires qui filent vers l'horizon
+    lampes.forEach((p) => {
+      [-1, 1].forEach((c) => {
+        const x = vx + c * p * W * 0.78, y = vy - p * H * 0.42, r = 2 + p * W * 0.012;
+        const g = ctx.createRadialGradient(x, y, 0, x, y, r * 4);
+        g.addColorStop(0, "rgba(255,214,160,0.9)"); g.addColorStop(0.25, "rgba(255,180,110,0.25)"); g.addColorStop(1, "rgba(255,180,110,0)");
+        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r * 4, 0, Math.PI * 2); ctx.fill();
+      });
+    });
+    // traînées lumineuses
+    traces.forEach((tr) => {
+      const bx = vx + tr.x * W * 0.62, coul = tr.cote === "phare" ? "255,244,226" : "255,58,48";
+      const g = ctx.createLinearGradient(vx, vy, bx, H);
+      g.addColorStop(0, `rgba(${coul},0)`); g.addColorStop(0.35, `rgba(${coul},0.35)`); g.addColorStop(1, `rgba(${coul},0.95)`);
+      ctx.strokeStyle = g; ctx.lineWidth = tr.largeur * W / 700; ctx.lineCap = "round";
+      ctx.setLineDash([tr.trou * W / 900 * 3, tr.trou * W / 900]);
+      ctx.lineDashOffset = (tr.cote === "phare" ? -1 : 1) * (tr.decal + t * 0.06 * tr.vitesse) * W / 900;
+      ctx.beginPath(); ctx.moveTo(vx + tr.x * 4, vy + 1);
+      ctx.quadraticCurveTo(vx + tr.x * W * 0.18, vy + (H - vy) * 0.35, bx, H + 4); ctx.stroke();
+    });
+    ctx.setLineDash([]);
+  }
+
+  function boucle(t) { dessiner(t); if (!calme) requestAnimationFrame(boucle); }
+  preparer(); dessiner(0);
+  if (!calme) requestAnimationFrame(boucle);
+  let attente; window.addEventListener("resize", () => { clearTimeout(attente); attente = setTimeout(() => { preparer(); dessiner(0); }, 150); });
+})();
+</script>
