@@ -1,6 +1,6 @@
 {
- "date": "2026-10-28",
- "genere_le": "2026-10-28T06:03+00:00",
+ "date": "2026-10-29",
+ "genere_le": "2026-10-29T06:09+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -8,16 +8,16 @@
   "annee_min": 2013
  },
  "semaine": {
-  "debut": "2026-10-22",
-  "fin": "2026-10-28"
+  "debut": "2026-10-23",
+  "fin": "2026-10-29"
  },
  "modeles": {
   "golf7gti": {
    "nom": "Golf 7 GTI",
-   "en_stock": 2,
+   "en_stock": 1,
    "dans_vos_criteres": 0,
    "prix_min": 18999,
-   "prix_median": 18999.0,
+   "prix_median": 18999,
    "arrivees": 0,
    "vendues": 0,
    "baisses_prix": 0
@@ -34,13 +34,13 @@
   },
   "leoncupra": {
    "nom": "Leon Cupra",
-   "en_stock": 5,
+   "en_stock": 7,
    "dans_vos_criteres": 0,
    "prix_min": 13999,
-   "prix_median": 19750,
-   "arrivees": 3,
-   "vendues": 1,
-   "baisses_prix": 1
+   "prix_median": 20250,
+   "arrivees": 5,
+   "vendues": 0,
+   "baisses_prix": 2
   }
  },
  "vehicules": [
@@ -65,8 +65,9 @@
    "vendeur": "Fahrzeugpark Siegen",
    "localisation": "Siegen",
    "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-28",
+   "derniere_vue": "2026-10-29",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -105,8 +106,9 @@
    "vendeur": "Haas Automobile",
    "localisation": "Ebersdorf b. Coburg",
    "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/c2/c2ed964d-290e-4c2d-92b9-ab13413e26ae?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-28",
+   "derniere_vue": "2026-10-29",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -145,57 +147,14 @@
    "vendeur": "CAR-Riesling",
    "localisation": "Stuttgart",
    "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-28",
+   "derniere_vue": "2026-10-29",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
     {
      "date": "2026-10-14",
-     "prix": 18999
-    }
-   ],
-   "modele_cible": "golf7gti",
-   "nom_modele": "Golf 7 GTI",
-   "ecarts": [
-    {
-     "champ": "prix",
-     "texte": "+3 009 €"
-    }
-   ]
-  },
-  {
-   "cle": "mobilede:461890402",
-   "source": "AUTORIESLING",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=461890402",
-   "marque": "Skoda",
-   "modele": "Octavia",
-   "version": "2.0 TDI Style/LEDER/HeadUp/MEMORY/KEYSGO",
-   "annee": 2022,
-   "mois": 9,
-   "km": 100000,
-   "prix": 18999,
-   "puissance_ch": 211,
-   "carburant": "Diesel",
-   "transmission": "DSG",
-   "toit_ouvrant": null,
-   "finition": "Performance",
-   "phase": "2",
-   "accidente": null,
-   "vendeur": "CAR-Riesling",
-   "localisation": "Stuttgart",
-   "criteres": "hors",
-   "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-28",
-   "actif": true,
-   "retiree_le": null,
-   "historique_prix": [
-    {
-     "date": "2026-10-14",
-     "prix": 15999
-    },
-    {
-     "date": "2026-10-27",
      "prix": 18999
     }
    ],
@@ -229,8 +188,9 @@
    "vendeur": "Dick Automobile",
    "localisation": "Bebra",
    "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdcc58fe-02cc-47f0-85dd-573624c065de?rule=mo-1600",
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-10-28",
+   "derniere_vue": "2026-10-29",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -269,8 +229,9 @@
    "vendeur": "Dick Automobile",
    "localisation": "Bebra",
    "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/36/360a32d9-cac5-4425-8a55-68aaaf02d6da?rule=mo-1600",
    "premiere_vue": "2026-10-25",
-   "derniere_vue": "2026-10-28",
+   "derniere_vue": "2026-10-29",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -293,16 +254,16 @@
    ]
   },
   {
-   "cle": "mobilede:51738589821760",
+   "cle": "mobilede:53009337275008",
    "source": "DICK-AUTOMOBILE",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53009337275008",
    "marque": "Cupra",
    "modele": "Leon",
    "version": "Sportst 2.0 DSG VZ BLACK+VIRTU+LED+NAVI+19\"",
    "annee": 2024,
-   "mois": 2,
-   "km": 13630,
-   "prix": 23350,
+   "mois": 3,
+   "km": 19410,
+   "prix": 22950,
    "puissance_ch": 245,
    "carburant": "Benzin",
    "transmission": "DSG",
@@ -313,13 +274,100 @@
    "vendeur": "Dick Automobile",
    "localisation": "Bebra",
    "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdeae0a5-98fa-450f-aa1c-f0c0d2f38510?rule=mo-1600",
+   "premiere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-29",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-10-29",
+     "prix": 22950
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+6 960 €"
+    }
+   ]
+  },
+  {
+   "cle": "mobilede:51738589821760",
+   "source": "DICK-AUTOMOBILE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "Sportst 2.0 DSG VZ BLACK+VIRTU+LED+NAVI+19\"",
+   "annee": 2024,
+   "mois": 2,
+   "km": 13630,
+   "prix": 23250,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Dick Automobile",
+   "localisation": "Bebra",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/07/074153da-aa4f-482b-a218-f5f89c7ca3ea?rule=mo-1600",
    "premiere_vue": "2026-10-23",
-   "derniere_vue": "2026-10-28",
+   "derniere_vue": "2026-10-29",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
     {
      "date": "2026-10-23",
+     "prix": 23350
+    },
+    {
+     "date": "2026-10-29",
+     "prix": 23250
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+7 260 €"
+    }
+   ]
+  },
+  {
+   "cle": "mobilede:52979392800800",
+   "source": "DICK-AUTOMOBILE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52979392800800",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "ST 2.0 VZ CUP 4Drive >BEATS+ACC+LED+SHZ+19\"",
+   "annee": 2023,
+   "mois": 5,
+   "km": 72045,
+   "prix": 23350,
+   "puissance_ch": 310,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Dick Automobile",
+   "localisation": "Bebra",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/af/af8da315-b22d-4d00-8f8d-aa33b2ea1024?rule=mo-1600",
+   "premiere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-29",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-10-29",
      "prix": 23350
     }
    ],
@@ -329,6 +377,47 @@
     {
      "champ": "prix",
      "texte": "+7 360 €"
+    }
+   ]
+  },
+  {
+   "cle": "mobilede:461890402~2026-10-14",
+   "source": "AUTORIESLING",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=461890402",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0 TSI OPF DSG GTI Performance/KAMERA/TÜV",
+   "annee": 2017,
+   "mois": 9,
+   "km": 70000,
+   "prix": 15999,
+   "puissance_ch": 211,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "CAR-Riesling",
+   "localisation": "Stuttgart",
+   "criteres": "hors",
+   "photo": null,
+   "premiere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-18",
+   "actif": false,
+   "retiree_le": "2026-10-19",
+   "historique_prix": [
+    {
+     "date": "2026-10-14",
+     "prix": 15999
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+9 €"
     }
    ]
   },
@@ -353,6 +442,7 @@
    "vendeur": "MA Automobile",
    "localisation": "Bottrop",
    "criteres": "hors",
+   "photo": null,
    "premiere_vue": "2026-10-14",
    "derniere_vue": "2026-10-20",
    "actif": false,
@@ -393,6 +483,7 @@
    "vendeur": "Dick Automobile",
    "localisation": "Bebra",
    "criteres": "hors",
+   "photo": null,
    "premiere_vue": "2026-10-14",
    "derniere_vue": "2026-10-18",
    "actif": false,
@@ -414,6 +505,12 @@
   }
  ],
  "evenements": [
+  {
+   "date": "2026-10-29",
+   "type": "baisse",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
+   "texte": "Baisse de prix : Leon Cupra 2024, 23 350 € -> 23 250 € (Dick Automobile)"
+  },
   {
    "date": "2026-10-28",
    "type": "baisse",
@@ -451,12 +548,6 @@
    "texte": "Retirée (probablement vendue) : BMW 330i 2016, 16 990 €, après au moins 7 j en ligne (MA Automobile)"
   },
   {
-   "date": "2026-10-19",
-   "type": "retrait",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=461890402",
-   "texte": "Retirée (probablement vendue) : Golf 7 GTI 2022, 18 999 €, après au moins 5 j en ligne (CAR-Riesling)"
-  },
-  {
    "date": "2026-10-17",
    "type": "rafale",
    "url": null,
@@ -472,7 +563,7 @@
    "verdict": "ok",
    "message": "16 annonces, volume normal.",
    "en_stock": 16,
-   "arrivees": 1,
+   "arrivees": 2,
    "vendues": 1,
    "baisses_prix": 4,
    "volumes": [
@@ -550,6 +641,11 @@
      "date": "2026-10-28",
      "uniques": 16,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-29",
+     "uniques": 16,
+     "etat": "ok"
     }
    ]
   },
@@ -561,9 +657,9 @@
    "verdict": "ok",
    "message": "9 annonces, volume normal.",
    "en_stock": 9,
-   "arrivees": 3,
-   "vendues": 2,
-   "baisses_prix": 1,
+   "arrivees": 0,
+   "vendues": 0,
+   "baisses_prix": 0,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -639,6 +735,11 @@
      "date": "2026-10-28",
      "uniques": 9,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-29",
+     "uniques": 9,
+     "etat": "ok"
     }
    ]
   },
@@ -651,7 +752,7 @@
    "message": "21 annonces, volume normal.",
    "en_stock": 21,
    "arrivees": 4,
-   "vendues": 3,
+   "vendues": 2,
    "baisses_prix": 2,
    "volumes": [
     {
@@ -726,6 +827,11 @@
     },
     {
      "date": "2026-10-28",
+     "uniques": 21,
+     "etat": "ok"
+    },
+    {
+     "date": "2026-10-29",
      "uniques": 21,
      "etat": "ok"
     }
@@ -817,6 +923,11 @@
      "date": "2026-10-28",
      "uniques": 37,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-29",
+     "uniques": 37,
+     "etat": "incomplet"
     }
    ]
   },
@@ -826,7 +937,7 @@
    "ville": "Erbach",
    "url": "https://home.mobile.de/AUTO-BAST",
    "verdict": "attention",
-   "message": "lecture partielle (47 lues sur 49 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (47 lues sur 48 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 49,
    "arrivees": 3,
    "vendues": 9,
@@ -906,6 +1017,11 @@
      "date": "2026-10-28",
      "uniques": 47,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-29",
+     "uniques": 47,
+     "etat": "incomplet"
     }
    ]
   },
@@ -915,11 +1031,11 @@
    "ville": "Ebersdorf b. Coburg",
    "url": "https://home.mobile.de/HAASAUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (60 lues sur 62 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 66,
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 67,
    "arrivees": 11,
    "vendues": 4,
-   "baisses_prix": 12,
+   "baisses_prix": 10,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -995,6 +1111,11 @@
      "date": "2026-10-28",
      "uniques": 59,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-29",
+     "uniques": 59,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1003,12 +1124,12 @@
    "nom": "Dick Automobile",
    "ville": "Bebra",
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
-   "verdict": "ok",
-   "message": "302 annonces, volume normal.",
-   "en_stock": 302,
-   "arrivees": 72,
-   "vendues": 94,
-   "baisses_prix": 181,
+   "verdict": "attention",
+   "message": "lecture partielle (295 lues sur 306 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 315,
+   "arrivees": 82,
+   "vendues": 84,
+   "baisses_prix": 178,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1084,9 +1205,14 @@
      "date": "2026-10-28",
      "uniques": 302,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-29",
+     "uniques": 292,
+     "etat": "incomplet"
     }
    ]
   }
  ],
- "annonces_suivies": 503
+ "annonces_suivies": 517
 }

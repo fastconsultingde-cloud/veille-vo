@@ -128,6 +128,7 @@ h2 { font-family: var(--display); font-stretch: 118%; font-weight: 500; font-siz
 .fiche.vendue { opacity: .6; }
 .photo { position: relative; aspect-ratio: 16 / 10; max-width: 100%; overflow: hidden; }
 .photo svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .badge { position: absolute; top: 14px; right: 14px; font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--bleu); background: rgba(8, 16, 34, 0.72); border: 1px solid var(--bleu-trait); border-radius: 999px; padding: 5px 12px; }
 .badge.ok { color: var(--ok); border-color: currentColor; }
 .fiche .haut { padding: 22px 26px 0; display: grid; gap: 4px; }
@@ -384,7 +385,7 @@ footer .cadre { display: flex; justify-content: space-between; gap: 16px; flex-w
     const dureeTxt = duree == null ? "" : v.actif ? (duree === 0 ? "Nouvelle aujourd'hui" : `En ligne depuis ${duree} j`) : `Restée ${duree} j en ligne`;
     const retenue = v.actif && v.criteres === "retenu";
     return `<article class="fiche${v.actif ? "" : " vendue"}">
-      <div class="photo">${studio(v)}<span class="badge${retenue ? " ok" : ""}">${retenue ? "Dans vos critères" : esc(NOM_CAISSE[caisse(v)])}</span></div>
+      <div class="photo">${studio(v)}${v.photo ? `<img src="${esc(v.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}<span class="badge${retenue ? " ok" : ""}">${retenue ? "Dans vos critères" : esc(NOM_CAISSE[caisse(v)])}</span></div>
       <div class="haut">
         <div class="sur">${esc(v.marque)}</div>
         <h3>${esc(v.nom_modele)}</h3>
