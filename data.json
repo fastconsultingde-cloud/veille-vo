@@ -1,6 +1,6 @@
 {
- "date": "2026-10-29",
- "genere_le": "2026-10-29T06:09+00:00",
+ "date": "2026-10-30",
+ "genere_le": "2026-10-30T06:07+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -8,8 +8,8 @@
   "annee_min": 2013
  },
  "semaine": {
-  "debut": "2026-10-23",
-  "fin": "2026-10-29"
+  "debut": "2026-10-24",
+  "fin": "2026-10-30"
  },
  "modeles": {
   "golf7gti": {
@@ -38,7 +38,7 @@
    "dans_vos_criteres": 0,
    "prix_min": 13999,
    "prix_median": 20250,
-   "arrivees": 5,
+   "arrivees": 4,
    "vendues": 0,
    "baisses_prix": 2
   }
@@ -67,7 +67,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-30",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -108,7 +108,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/c2/c2ed964d-290e-4c2d-92b9-ab13413e26ae?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-30",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -149,7 +149,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-30",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -190,7 +190,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdcc58fe-02cc-47f0-85dd-573624c065de?rule=mo-1600",
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-30",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -646,6 +646,11 @@
      "date": "2026-10-29",
      "uniques": 16,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 16,
+     "etat": "ok"
     }
    ]
   },
@@ -740,6 +745,11 @@
      "date": "2026-10-29",
      "uniques": 9,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 9,
+     "etat": "ok"
     }
    ]
   },
@@ -749,11 +759,11 @@
    "ville": "Bottrop",
    "url": "https://home.mobile.de/MAAUTOMOBILEBOTTROP",
    "verdict": "ok",
-   "message": "21 annonces, volume normal.",
-   "en_stock": 21,
+   "message": "18 annonces, volume normal.",
+   "en_stock": 18,
    "arrivees": 4,
-   "vendues": 2,
-   "baisses_prix": 2,
+   "vendues": 5,
+   "baisses_prix": 6,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -834,6 +844,11 @@
      "date": "2026-10-29",
      "uniques": 21,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 18,
+     "etat": "ok"
     }
    ]
   },
@@ -843,11 +858,11 @@
    "ville": "Niederzier",
    "url": "https://home.mobile.de/CARSTYLE",
    "verdict": "attention",
-   "message": "lecture partielle (37 lues sur 40 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 40,
+   "message": "lecture partielle (39 lues sur 40 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 41,
    "arrivees": 1,
-   "vendues": 7,
-   "baisses_prix": 1,
+   "vendues": 5,
+   "baisses_prix": 0,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -928,6 +943,11 @@
      "date": "2026-10-29",
      "uniques": 37,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 39,
+     "etat": "incomplet"
     }
    ]
   },
@@ -937,11 +957,11 @@
    "ville": "Erbach",
    "url": "https://home.mobile.de/AUTO-BAST",
    "verdict": "attention",
-   "message": "lecture partielle (47 lues sur 48 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 49,
-   "arrivees": 3,
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 50,
+   "arrivees": 2,
    "vendues": 9,
-   "baisses_prix": 5,
+   "baisses_prix": 6,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1022,6 +1042,11 @@
      "date": "2026-10-29",
      "uniques": 47,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 38,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1031,10 +1056,10 @@
    "ville": "Ebersdorf b. Coburg",
    "url": "https://home.mobile.de/HAASAUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 67,
-   "arrivees": 11,
-   "vendues": 4,
+   "message": "lecture partielle (61 lues sur 62 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 65,
+   "arrivees": 12,
+   "vendues": 7,
    "baisses_prix": 10,
    "volumes": [
     {
@@ -1116,6 +1141,11 @@
      "date": "2026-10-29",
      "uniques": 59,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 61,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1125,11 +1155,11 @@
    "ville": "Bebra",
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (295 lues sur 306 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 315,
-   "arrivees": 82,
-   "vendues": 84,
-   "baisses_prix": 178,
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 324,
+   "arrivees": 84,
+   "vendues": 74,
+   "baisses_prix": 158,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1210,9 +1240,14 @@
      "date": "2026-10-29",
      "uniques": 292,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-30",
+     "uniques": 227,
+     "etat": "incomplet"
     }
    ]
   }
  ],
- "annonces_suivies": 517
+ "annonces_suivies": 523
 }
