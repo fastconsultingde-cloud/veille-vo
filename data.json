@@ -1,6 +1,6 @@
 {
- "date": "2026-10-30",
- "genere_le": "2026-10-30T06:07+00:00",
+ "date": "2026-10-31",
+ "genere_le": "2026-10-31T06:07+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -8,8 +8,8 @@
   "annee_min": 2013
  },
  "semaine": {
-  "debut": "2026-10-24",
-  "fin": "2026-10-30"
+  "debut": "2026-10-25",
+  "fin": "2026-10-31"
  },
  "modeles": {
   "golf7gti": {
@@ -40,7 +40,7 @@
    "prix_median": 20250,
    "arrivees": 4,
    "vendues": 0,
-   "baisses_prix": 2
+   "baisses_prix": 3
   }
  },
  "vehicules": [
@@ -67,7 +67,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-30",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -108,7 +108,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/c2/c2ed964d-290e-4c2d-92b9-ab13413e26ae?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-30",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -149,7 +149,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-10-30",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -190,7 +190,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdcc58fe-02cc-47f0-85dd-573624c065de?rule=mo-1600",
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-10-30",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -231,7 +231,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/36/360a32d9-cac5-4425-8a55-68aaaf02d6da?rule=mo-1600",
    "premiere_vue": "2026-10-25",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -263,7 +263,7 @@
    "annee": 2024,
    "mois": 3,
    "km": 19410,
-   "prix": 22950,
+   "prix": 22750,
    "puissance_ch": 245,
    "carburant": "Benzin",
    "transmission": "DSG",
@@ -276,13 +276,17 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdeae0a5-98fa-450f-aa1c-f0c0d2f38510?rule=mo-1600",
    "premiere_vue": "2026-10-29",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
     {
      "date": "2026-10-29",
      "prix": 22950
+    },
+    {
+     "date": "2026-10-31",
+     "prix": 22750
     }
    ],
    "modele_cible": "leoncupra",
@@ -290,7 +294,7 @@
    "ecarts": [
     {
      "champ": "prix",
-     "texte": "+6 960 €"
+     "texte": "+6 760 €"
     }
    ]
   },
@@ -304,7 +308,7 @@
    "annee": 2024,
    "mois": 2,
    "km": 13630,
-   "prix": 23250,
+   "prix": 23350,
    "puissance_ch": 245,
    "carburant": "Benzin",
    "transmission": "DSG",
@@ -317,7 +321,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/07/074153da-aa4f-482b-a218-f5f89c7ca3ea?rule=mo-1600",
    "premiere_vue": "2026-10-23",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -328,6 +332,10 @@
     {
      "date": "2026-10-29",
      "prix": 23250
+    },
+    {
+     "date": "2026-10-31",
+     "prix": 23350
     }
    ],
    "modele_cible": "leoncupra",
@@ -335,7 +343,7 @@
    "ecarts": [
     {
      "champ": "prix",
-     "texte": "+7 260 €"
+     "texte": "+7 360 €"
     }
    ]
   },
@@ -362,7 +370,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/af/af8da315-b22d-4d00-8f8d-aa33b2ea1024?rule=mo-1600",
    "premiere_vue": "2026-10-29",
-   "derniere_vue": "2026-10-29",
+   "derniere_vue": "2026-10-31",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -506,6 +514,12 @@
  ],
  "evenements": [
   {
+   "date": "2026-10-31",
+   "type": "baisse",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53009337275008",
+   "texte": "Baisse de prix : Leon Cupra 2024, 22 950 € -> 22 750 € (Dick Automobile)"
+  },
+  {
    "date": "2026-10-29",
    "type": "baisse",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
@@ -546,12 +560,6 @@
    "type": "retrait",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48952600736608",
    "texte": "Retirée (probablement vendue) : BMW 330i 2016, 16 990 €, après au moins 7 j en ligne (MA Automobile)"
-  },
-  {
-   "date": "2026-10-17",
-   "type": "rafale",
-   "url": null,
-   "texte": "Dick Automobile publie d'un coup 4 nouvelles MG HS"
   }
  ],
  "sources": [
@@ -649,6 +657,11 @@
     },
     {
      "date": "2026-10-30",
+     "uniques": 16,
+     "etat": "ok"
+    },
+    {
+     "date": "2026-10-31",
      "uniques": 16,
      "etat": "ok"
     }
@@ -750,6 +763,11 @@
      "date": "2026-10-30",
      "uniques": 9,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-31",
+     "uniques": 9,
+     "etat": "ok"
     }
    ]
   },
@@ -759,10 +777,10 @@
    "ville": "Bottrop",
    "url": "https://home.mobile.de/MAAUTOMOBILEBOTTROP",
    "verdict": "ok",
-   "message": "18 annonces, volume normal.",
-   "en_stock": 18,
+   "message": "21 annonces, volume normal.",
+   "en_stock": 21,
    "arrivees": 4,
-   "vendues": 5,
+   "vendues": 2,
    "baisses_prix": 6,
    "volumes": [
     {
@@ -849,6 +867,11 @@
      "date": "2026-10-30",
      "uniques": 18,
      "etat": "ok"
+    },
+    {
+     "date": "2026-10-31",
+     "uniques": 21,
+     "etat": "ok"
     }
    ]
   },
@@ -857,11 +880,11 @@
    "nom": "Carstyle",
    "ville": "Niederzier",
    "url": "https://home.mobile.de/CARSTYLE",
-   "verdict": "attention",
-   "message": "lecture partielle (39 lues sur 40 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 41,
+   "verdict": "ok",
+   "message": "40 annonces, volume normal.",
+   "en_stock": 40,
    "arrivees": 1,
-   "vendues": 5,
+   "vendues": 6,
    "baisses_prix": 0,
    "volumes": [
     {
@@ -948,6 +971,11 @@
      "date": "2026-10-30",
      "uniques": 39,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-31",
+     "uniques": 40,
+     "etat": "ok"
     }
    ]
   },
@@ -958,10 +986,10 @@
    "url": "https://home.mobile.de/AUTO-BAST",
    "verdict": "attention",
    "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 50,
+   "en_stock": 51,
    "arrivees": 2,
    "vendues": 9,
-   "baisses_prix": 6,
+   "baisses_prix": 7,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1047,6 +1075,11 @@
      "date": "2026-10-30",
      "uniques": 38,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-31",
+     "uniques": 38,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1057,10 +1090,10 @@
    "url": "https://home.mobile.de/HAASAUTOMOBILE",
    "verdict": "attention",
    "message": "lecture partielle (61 lues sur 62 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 65,
-   "arrivees": 12,
-   "vendues": 7,
-   "baisses_prix": 10,
+   "en_stock": 63,
+   "arrivees": 8,
+   "vendues": 8,
+   "baisses_prix": 6,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1146,6 +1179,11 @@
      "date": "2026-10-30",
      "uniques": 61,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-31",
+     "uniques": 60,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1156,10 +1194,10 @@
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
    "verdict": "attention",
    "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 324,
-   "arrivees": 84,
-   "vendues": 74,
-   "baisses_prix": 158,
+   "en_stock": 330,
+   "arrivees": 90,
+   "vendues": 72,
+   "baisses_prix": 172,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1245,9 +1283,14 @@
      "date": "2026-10-30",
      "uniques": 227,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-10-31",
+     "uniques": 273,
+     "etat": "incomplet"
     }
    ]
   }
  ],
- "annonces_suivies": 523
+ "annonces_suivies": 530
 }
