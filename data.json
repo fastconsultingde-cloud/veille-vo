@@ -1,6 +1,6 @@
 {
- "date": "2026-11-04",
- "genere_le": "2026-11-04T06:07+00:00",
+ "date": "2026-11-05",
+ "genere_le": "2026-11-05T06:07+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -8,8 +8,8 @@
   "annee_min": 2013
  },
  "semaine": {
-  "debut": "2026-10-29",
-  "fin": "2026-11-04"
+  "debut": "2026-10-30",
+  "fin": "2026-11-05"
  },
  "modeles": {
   "golf7gti": {
@@ -38,9 +38,9 @@
    "dans_vos_criteres": 0,
    "prix_min": 13999,
    "prix_median": 20950.0,
-   "arrivees": 3,
+   "arrivees": 1,
    "vendues": 0,
-   "baisses_prix": 5
+   "baisses_prix": 4
   }
  },
  "vehicules": [
@@ -108,7 +108,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/c2/c2ed964d-290e-4c2d-92b9-ab13413e26ae?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-04",
+   "derniere_vue": "2026-11-05",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -149,7 +149,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-04",
+   "derniere_vue": "2026-11-05",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -190,7 +190,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdcc58fe-02cc-47f0-85dd-573624c065de?rule=mo-1600",
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-11-04",
+   "derniere_vue": "2026-11-05",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -276,7 +276,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/ae/aea75590-3d2d-4de7-9404-191739ddd52f?rule=mo-1600",
    "premiere_vue": "2026-11-01",
-   "derniere_vue": "2026-11-04",
+   "derniere_vue": "2026-11-05",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -317,7 +317,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdeae0a5-98fa-450f-aa1c-f0c0d2f38510?rule=mo-1600",
    "premiere_vue": "2026-10-29",
-   "derniere_vue": "2026-11-04",
+   "derniere_vue": "2026-11-05",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -366,7 +366,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/07/074153da-aa4f-482b-a218-f5f89c7ca3ea?rule=mo-1600",
    "premiere_vue": "2026-10-23",
-   "derniere_vue": "2026-11-04",
+   "derniere_vue": "2026-11-05",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -629,12 +629,6 @@
    "type": "rafale",
    "url": null,
    "texte": "Dick Automobile publie d'un coup 3 nouvelles MG HS"
-  },
-  {
-   "date": "2026-10-22",
-   "type": "retrait",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=49058711944832",
-   "texte": "Retirée (probablement vendue) : Leon Cupra 2024, 24 950 €, après au moins 8 j en ligne (Dick Automobile)"
   }
  ],
  "sources": [
@@ -759,6 +753,11 @@
      "date": "2026-11-04",
      "uniques": 16,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-05",
+     "uniques": 16,
+     "etat": "incomplet"
     }
    ]
   },
@@ -767,12 +766,12 @@
    "nom": "Fahrzeugpark Siegen",
    "ville": "Siegen",
    "url": "https://home.mobile.de/FAHRZEUGPARKSIEGEN",
-   "verdict": "ok",
-   "message": "9 annonces, volume normal.",
-   "en_stock": 9,
-   "arrivees": 1,
-   "vendues": 1,
-   "baisses_prix": 2,
+   "verdict": "attention",
+   "message": "lecture partielle (5 annonces sur 11 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 11,
+   "arrivees": 2,
+   "vendues": 0,
+   "baisses_prix": 4,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -883,6 +882,11 @@
      "date": "2026-11-04",
      "uniques": 9,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-05",
+     "uniques": 6,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1005,6 +1009,11 @@
     },
     {
      "date": "2026-11-04",
+     "uniques": 21,
+     "etat": "ok"
+    },
+    {
+     "date": "2026-11-05",
      "uniques": 21,
      "etat": "ok"
     }
@@ -1131,6 +1140,11 @@
      "date": "2026-11-04",
      "uniques": 40,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-05",
+     "uniques": 40,
+     "etat": "ok"
     }
    ]
   },
@@ -1255,6 +1269,11 @@
      "date": "2026-11-04",
      "uniques": 38,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-05",
+     "uniques": 38,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1266,7 +1285,7 @@
    "verdict": "attention",
    "message": "lecture partielle (61 lues sur 62 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 63,
-   "arrivees": 6,
+   "arrivees": 5,
    "vendues": 11,
    "baisses_prix": 5,
    "volumes": [
@@ -1379,6 +1398,11 @@
      "date": "2026-11-04",
      "uniques": 60,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-05",
+     "uniques": 60,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1388,11 +1412,11 @@
    "ville": "Bebra",
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (274 lues sur 306 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 367,
-   "arrivees": 76,
-   "vendues": 13,
-   "baisses_prix": 152,
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 365,
+   "arrivees": 63,
+   "vendues": 15,
+   "baisses_prix": 138,
    "volumes": [
     {
      "date": "2026-10-14",
@@ -1502,6 +1526,11 @@
     {
      "date": "2026-11-04",
      "uniques": 273,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-05",
+     "uniques": 279,
      "etat": "incomplet"
     }
    ]
