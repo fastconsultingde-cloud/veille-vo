@@ -409,7 +409,8 @@ footer .cadre { display: flex; justify-content: space-between; gap: 16px; flex-w
   function plusProche(vehicules) {
     // l'annonce en vente qui ne rate vos critères que d'un seul point, et de peu
     const c = vehicules.filter((v) => v.actif && v.ecarts && v.ecarts.length === 1 && v.ecarts[0].champ !== "annee");
-    const score = (v) => (v.ecarts[0].champ === "prix" ? (v.prix - D.criteres.prix_max_eur) / D.criteres.prix_max_eur : (v.km - D.criteres.km_max) / D.criteres.km_max);
+    const pmax = (v) => v.prix_max_eur || D.criteres.prix_max_eur;
+    const score = (v) => (v.ecarts[0].champ === "prix" ? (v.prix - pmax(v)) / pmax(v) : (v.km - D.criteres.km_max) / D.criteres.km_max);
     c.sort((a, b) => score(a) - score(b));
     return c[0];
   }
@@ -436,6 +437,7 @@ footer .cadre { display: flex; justify-content: space-between; gap: 16px; flex-w
       `Prix <b>${esc(nf.format(c.prix_min_eur))} – ${esc(nf.format(c.prix_max_eur))} €</b>`,
       `Kilométrage <b>≤ ${esc(nf.format(c.km_max))} km</b>`,
       `Mise en circulation <b>${esc(c.annee_min)} et après</b>`,
+      ...((c.par_modele && c.par_modele.leoncupra && c.par_modele.leoncupra.annees.length) ? [(() => { const l = c.par_modele.leoncupra; return `Leon Cupra <b>${esc(l.annee_min || l.annees[0])}–${esc(l.annee_max || l.annees[l.annees.length - 1])} uniquement</b>, prix max selon année et km (marge ≥ ${esc(nf.format(l.marge_visee_eur))} €, ≤ ${esc(nf.format(l.km_max))} km)`; })()] : []),
     ].map((t) => `<span class="puce">${t}</span>`).join("");
 
     if (retenues.length) {
