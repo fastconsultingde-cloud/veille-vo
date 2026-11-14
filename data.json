@@ -1,6 +1,6 @@
 {
- "date": "2026-11-13",
- "genere_le": "2026-11-13T06:05+00:00",
+ "date": "2026-11-14",
+ "genere_le": "2026-11-14T06:10+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -22,17 +22,17 @@
   }
  },
  "semaine": {
-  "debut": "2026-11-07",
-  "fin": "2026-11-13"
+  "debut": "2026-11-08",
+  "fin": "2026-11-14"
  },
  "modeles": {
   "golf7gti": {
    "nom": "Golf 7 GTI",
-   "en_stock": 1,
+   "en_stock": 2,
    "dans_vos_criteres": 0,
-   "prix_min": 18999,
-   "prix_median": 18999,
-   "arrivees": 0,
+   "prix_min": 5990,
+   "prix_median": 12494.5,
+   "arrivees": 1,
    "vendues": 0,
    "baisses_prix": 0
   },
@@ -48,16 +48,66 @@
   },
   "leoncupra": {
    "nom": "Leon Cupra",
-   "en_stock": 5,
+   "en_stock": 6,
    "dans_vos_criteres": 0,
    "prix_min": 13999,
-   "prix_median": 22350,
-   "arrivees": 0,
+   "prix_median": 22650.0,
+   "arrivees": 1,
    "vendues": 1,
    "baisses_prix": 0
   }
  },
  "vehicules": [
+  {
+   "cle": "mobilede:56057274934688",
+   "source": "CARSTYLE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56057274934688",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "V 2.0 GTI Edition 30 Sondermodell DSG SHZ",
+   "annee": 2008,
+   "mois": 7,
+   "km": 198800,
+   "prix": 5990,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Carstyle",
+   "localisation": "Niederzier",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/39/391141ce-4e83-44f2-8be3-40ce9bd4f293?rule=mo-1600",
+   "premiere_vue": "2026-11-14",
+   "derniere_vue": "2026-11-14",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-14",
+     "prix": 5990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "sous le prix minimum"
+    },
+    {
+     "champ": "km",
+     "texte": "+68 801 km"
+    },
+    {
+     "champ": "annee",
+     "texte": "avant 2013"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
   {
    "cle": "mobilede:44510986784544",
    "source": "FAHRZEUGPARKSIEGEN",
@@ -81,7 +131,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-13",
+   "derniere_vue": "2026-11-14",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -123,7 +173,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/c2/c2ed964d-290e-4c2d-92b9-ab13413e26ae?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-13",
+   "derniere_vue": "2026-11-14",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -169,7 +219,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-13",
+   "derniere_vue": "2026-11-14",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -243,6 +293,52 @@
    "prix_max_eur": 15990
   },
   {
+   "cle": "mobilede:55647601777440",
+   "source": "DICK-AUTOMOBILE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=55647601777440",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "2.0 TSI DSG VZ >NAVI+VIRTU+LED+SHZ+TEMP+19\"",
+   "annee": 2024,
+   "mois": 6,
+   "km": 24976,
+   "prix": 22950,
+   "puissance_ch": 300,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Dick Automobile",
+   "localisation": "Bebra",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/23/23f8e022-0182-4210-9ff0-2cd2b30431b8?rule=mo-1600",
+   "premiere_vue": "2026-11-14",
+   "derniere_vue": "2026-11-14",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-14",
+     "prix": 22950
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+6 960 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
    "cle": "mobilede:51738589821760",
    "source": "DICK-AUTOMOBILE",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
@@ -265,7 +361,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/07/074153da-aa4f-482b-a218-f5f89c7ca3ea?rule=mo-1600",
    "premiere_vue": "2026-10-23",
-   "derniere_vue": "2026-11-13",
+   "derniere_vue": "2026-11-14",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -335,7 +431,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/af/af8da315-b22d-4d00-8f8d-aa33b2ea1024?rule=mo-1600",
    "premiere_vue": "2026-10-29",
-   "derniere_vue": "2026-11-12",
+   "derniere_vue": "2026-11-14",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -589,12 +685,6 @@
    "type": "baisse",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
    "texte": "Baisse de prix : Leon Cupra 2024, 23 350 € -> 22 950 € (Dick Automobile)"
-  },
-  {
-   "date": "2026-10-31",
-   "type": "baisse",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53009337275008",
-   "texte": "Baisse de prix : Leon Cupra 2024, 22 950 € -> 22 750 € (Dick Automobile)"
   }
  ],
  "sources": [
@@ -610,11 +700,6 @@
    "vendues": 0,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-15",
-     "uniques": 18,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-16",
      "uniques": 18,
@@ -757,6 +842,11 @@
     },
     {
      "date": "2026-11-13",
+     "uniques": 16,
+     "etat": "ok"
+    },
+    {
+     "date": "2026-11-14",
      "uniques": 16,
      "etat": "ok"
     }
@@ -775,11 +865,6 @@
    "baisses_prix": 0,
    "volumes": [
     {
-     "date": "2026-10-15",
-     "uniques": 8,
-     "etat": "ok"
-    },
-    {
      "date": "2026-10-16",
      "uniques": 8,
      "etat": "ok"
@@ -923,6 +1008,11 @@
      "date": "2026-11-13",
      "uniques": 9,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-14",
+     "uniques": 9,
+     "etat": "ok"
     }
    ]
   },
@@ -932,17 +1022,12 @@
    "ville": "Bottrop",
    "url": "https://home.mobile.de/MAAUTOMOBILEBOTTROP",
    "verdict": "attention",
-   "message": "lecture partielle (6 annonces sur 27 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 27,
-   "arrivees": 5,
+   "message": "lecture partielle (21 lues sur 24 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 28,
+   "arrivees": 6,
    "vendues": 0,
    "baisses_prix": 4,
    "volumes": [
-    {
-     "date": "2026-10-15",
-     "uniques": 21,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-16",
      "uniques": 24,
@@ -1087,6 +1172,11 @@
      "date": "2026-11-13",
      "uniques": 21,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-14",
+     "uniques": 21,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1095,18 +1185,13 @@
    "nom": "Carstyle",
    "ville": "Niederzier",
    "url": "https://home.mobile.de/CARSTYLE",
-   "verdict": "ok",
-   "message": "40 annonces, volume normal.",
-   "en_stock": 40,
-   "arrivees": 11,
-   "vendues": 14,
-   "baisses_prix": 3,
+   "verdict": "attention",
+   "message": "lecture partielle (39 lues sur 40 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 49,
+   "arrivees": 8,
+   "vendues": 9,
+   "baisses_prix": 13,
    "volumes": [
-    {
-     "date": "2026-10-15",
-     "uniques": 44,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-16",
      "uniques": 44,
@@ -1251,6 +1336,11 @@
      "date": "2026-11-13",
      "uniques": 40,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-14",
+     "uniques": 39,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1262,15 +1352,10 @@
    "verdict": "attention",
    "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 57,
-   "arrivees": 9,
-   "vendues": 31,
-   "baisses_prix": 49,
+   "arrivees": 1,
+   "vendues": 29,
+   "baisses_prix": 25,
    "volumes": [
-    {
-     "date": "2026-10-15",
-     "uniques": 49,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-16",
      "uniques": 42,
@@ -1415,6 +1500,11 @@
      "date": "2026-11-13",
      "uniques": 38,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-14",
+     "uniques": 38,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1424,17 +1514,12 @@
    "ville": "Ebersdorf b. Coburg",
    "url": "https://home.mobile.de/HAASAUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (61 lues sur 62 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 77,
-   "arrivees": 10,
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 79,
+   "arrivees": 12,
    "vendues": 1,
-   "baisses_prix": 7,
+   "baisses_prix": 11,
    "volumes": [
-    {
-     "date": "2026-10-15",
-     "uniques": 57,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-16",
      "uniques": 56,
@@ -1579,6 +1664,11 @@
      "date": "2026-11-13",
      "uniques": 60,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-14",
+     "uniques": 53,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1588,17 +1678,12 @@
    "ville": "Bebra",
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 378,
-   "arrivees": 61,
-   "vendues": 48,
-   "baisses_prix": 157,
+   "arrivees": 51,
+   "vendues": 55,
+   "baisses_prix": 171,
    "volumes": [
-    {
-     "date": "2026-10-15",
-     "uniques": 283,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-16",
      "uniques": 224,
@@ -1743,9 +1828,14 @@
      "date": "2026-11-13",
      "uniques": 251,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-14",
+     "uniques": 264,
+     "etat": "incomplet"
     }
    ]
   }
  ],
- "annonces_suivies": 604
+ "annonces_suivies": 616
 }
