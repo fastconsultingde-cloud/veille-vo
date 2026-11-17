@@ -1,6 +1,6 @@
 {
- "date": "2026-11-16",
- "genere_le": "2026-11-16T06:07+00:00",
+ "date": "2026-11-17",
+ "genere_le": "2026-11-17T06:06+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -22,16 +22,16 @@
   }
  },
  "semaine": {
-  "debut": "2026-11-10",
-  "fin": "2026-11-16"
+  "debut": "2026-11-11",
+  "fin": "2026-11-17"
  },
  "modeles": {
   "golf7gti": {
    "nom": "Golf 7 GTI",
    "en_stock": 1,
    "dans_vos_criteres": 0,
-   "prix_min": 5990,
-   "prix_median": 5990,
+   "prix_min": 18999,
+   "prix_median": 18999,
    "arrivees": 1,
    "vendues": 1,
    "baisses_prix": 0
@@ -48,66 +48,16 @@
   },
   "leoncupra": {
    "nom": "Leon Cupra",
-   "en_stock": 6,
+   "en_stock": 5,
    "dans_vos_criteres": 0,
    "prix_min": 13999,
-   "prix_median": 22650.0,
+   "prix_median": 22350,
    "arrivees": 1,
-   "vendues": 1,
+   "vendues": 2,
    "baisses_prix": 1
   }
  },
  "vehicules": [
-  {
-   "cle": "mobilede:56057274934688",
-   "source": "CARSTYLE",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56057274934688",
-   "marque": "Volkswagen",
-   "modele": "Golf",
-   "version": "V 2.0 GTI Edition 30 Sondermodell DSG SHZ",
-   "annee": 2008,
-   "mois": 7,
-   "km": 198800,
-   "prix": 5990,
-   "puissance_ch": 230,
-   "carburant": "Benzin",
-   "transmission": "DSG",
-   "toit_ouvrant": null,
-   "finition": null,
-   "phase": "1",
-   "accidente": null,
-   "vendeur": "Carstyle",
-   "localisation": "Niederzier",
-   "criteres": "hors",
-   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/39/391141ce-4e83-44f2-8be3-40ce9bd4f293?rule=mo-1600",
-   "premiere_vue": "2026-11-14",
-   "derniere_vue": "2026-11-14",
-   "actif": true,
-   "retiree_le": null,
-   "historique_prix": [
-    {
-     "date": "2026-11-14",
-     "prix": 5990
-    }
-   ],
-   "modele_cible": "golf7gti",
-   "nom_modele": "Golf 7 GTI",
-   "ecarts": [
-    {
-     "champ": "prix",
-     "texte": "sous le prix minimum"
-    },
-    {
-     "champ": "km",
-     "texte": "+68 801 km"
-    },
-    {
-     "champ": "annee",
-     "texte": "avant 2013"
-    }
-   ],
-   "prix_max_eur": 15990
-  },
   {
    "cle": "mobilede:44510986784544",
    "source": "FAHRZEUGPARKSIEGEN",
@@ -131,7 +81,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-15",
+   "derniere_vue": "2026-11-17",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -173,7 +123,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/c2/c2ed964d-290e-4c2d-92b9-ab13413e26ae?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-16",
+   "derniere_vue": "2026-11-17",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -195,6 +145,48 @@
     }
    ],
    "prix_max_eur": 18600
+  },
+  {
+   "cle": "mobilede:439697453",
+   "source": "AUTORIESLING",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=439697453",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII Lim. GTI Performance/LEDER/ACC/DAB/VOLL",
+   "annee": 2015,
+   "mois": 9,
+   "km": 66000,
+   "prix": 18999,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "CAR-Riesling",
+   "localisation": "Stuttgart",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
+   "premiere_vue": "2026-10-14",
+   "derniere_vue": "2026-11-17",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-10-14",
+     "prix": 18999
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+3 009 €"
+    }
+   ],
+   "prix_max_eur": 15990
   },
   {
    "cle": "mobilede:53009337275008",
@@ -319,7 +311,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/07/074153da-aa4f-482b-a218-f5f89c7ca3ea?rule=mo-1600",
    "premiere_vue": "2026-10-23",
-   "derniere_vue": "2026-11-16",
+   "derniere_vue": "2026-11-17",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -375,47 +367,51 @@
    "prix_max_eur": 15990
   },
   {
-   "cle": "mobilede:52979392800800",
-   "source": "DICK-AUTOMOBILE",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52979392800800",
-   "marque": "Cupra",
-   "modele": "Leon",
-   "version": "ST 2.0 VZ CUP 4Drive >BEATS+ACC+LED+SHZ+19\"",
-   "annee": 2023,
-   "mois": 5,
-   "km": 72045,
-   "prix": 23350,
-   "puissance_ch": 310,
+   "cle": "mobilede:56057274934688",
+   "source": "CARSTYLE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56057274934688",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "V 2.0 GTI Edition 30 Sondermodell DSG SHZ",
+   "annee": 2008,
+   "mois": 7,
+   "km": 198800,
+   "prix": 5990,
+   "puissance_ch": 230,
    "carburant": "Benzin",
-   "transmission": null,
+   "transmission": "DSG",
    "toit_ouvrant": null,
-   "finition": "VZ",
-   "phase": null,
+   "finition": null,
+   "phase": "1",
    "accidente": null,
-   "vendeur": "Dick Automobile",
-   "localisation": "Bebra",
+   "vendeur": "Carstyle",
+   "localisation": "Niederzier",
    "criteres": "hors",
-   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/af/af8da315-b22d-4d00-8f8d-aa33b2ea1024?rule=mo-1600",
-   "premiere_vue": "2026-10-29",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/39/391141ce-4e83-44f2-8be3-40ce9bd4f293?rule=mo-1600",
+   "premiere_vue": "2026-11-14",
    "derniere_vue": "2026-11-14",
-   "actif": true,
-   "retiree_le": null,
+   "actif": false,
+   "retiree_le": "2026-11-17",
    "historique_prix": [
     {
-     "date": "2026-10-29",
-     "prix": 23350
+     "date": "2026-11-14",
+     "prix": 5990
     }
    ],
-   "modele_cible": "leoncupra",
-   "nom_modele": "Leon Cupra",
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
    "ecarts": [
     {
      "champ": "prix",
-     "texte": "+7 360 €"
+     "texte": "sous le prix minimum"
+    },
+    {
+     "champ": "km",
+     "texte": "+68 801 km"
     },
     {
      "champ": "annee",
-     "texte": "après 2018"
+     "texte": "avant 2013"
     }
    ],
    "prix_max_eur": 15990
@@ -505,48 +501,6 @@
    "prix_max_eur": 15990
   },
   {
-   "cle": "mobilede:439697453",
-   "source": "AUTORIESLING",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=439697453",
-   "marque": "Volkswagen",
-   "modele": "Golf",
-   "version": "VII Lim. GTI Performance/LEDER/ACC/DAB/VOLL",
-   "annee": 2015,
-   "mois": 9,
-   "km": 66000,
-   "prix": 18999,
-   "puissance_ch": 230,
-   "carburant": "Benzin",
-   "transmission": null,
-   "toit_ouvrant": null,
-   "finition": "Performance",
-   "phase": "1",
-   "accidente": null,
-   "vendeur": "CAR-Riesling",
-   "localisation": "Stuttgart",
-   "criteres": "hors",
-   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
-   "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-14",
-   "actif": false,
-   "retiree_le": "2026-11-15",
-   "historique_prix": [
-    {
-     "date": "2026-10-14",
-     "prix": 18999
-    }
-   ],
-   "modele_cible": "golf7gti",
-   "nom_modele": "Golf 7 GTI",
-   "ecarts": [
-    {
-     "champ": "prix",
-     "texte": "+3 009 €"
-    }
-   ],
-   "prix_max_eur": 15990
-  },
-  {
    "cle": "mobilede:53523045311936",
    "source": "DICK-AUTOMOBILE",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53523045311936",
@@ -584,6 +538,52 @@
     {
      "champ": "prix",
      "texte": "+5 660 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:52979392800800",
+   "source": "DICK-AUTOMOBILE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52979392800800",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "ST 2.0 VZ CUP 4Drive >BEATS+ACC+LED+SHZ+19\"",
+   "annee": 2023,
+   "mois": 5,
+   "km": 72045,
+   "prix": 23350,
+   "puissance_ch": 310,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Dick Automobile",
+   "localisation": "Bebra",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/af/af8da315-b22d-4d00-8f8d-aa33b2ea1024?rule=mo-1600",
+   "premiere_vue": "2026-10-29",
+   "derniere_vue": "2026-11-14",
+   "actif": false,
+   "retiree_le": "2026-11-17",
+   "historique_prix": [
+    {
+     "date": "2026-10-29",
+     "prix": 23350
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+7 360 €"
     },
     {
      "champ": "annee",
@@ -641,6 +641,18 @@
  ],
  "evenements": [
   {
+   "date": "2026-11-17",
+   "type": "retrait_rapide",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56057274934688",
+   "texte": "Retirée VITE (probablement vendue) : Golf 7 GTI 2008, 5 990 €, après 3 j en ligne (Carstyle)"
+  },
+  {
+   "date": "2026-11-17",
+   "type": "retrait",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52979392800800",
+   "texte": "Retirée (probablement vendue) : Leon Cupra 2023, 23 350 €, après 19 j en ligne (Dick Automobile)"
+  },
+  {
    "date": "2026-11-15",
    "type": "baisse",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
@@ -651,12 +663,6 @@
    "type": "retrait",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=439697453",
    "texte": "Retirée (probablement vendue) : Golf 7 GTI 2015, 18 999 €, après au moins 32 j en ligne (CAR-Riesling)"
-  },
-  {
-   "date": "2026-11-14",
-   "type": "rare",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56057274934688",
-   "texte": "Rare : Golf 7 GTI 2008, 5 990 €, seule de ce modèle en vente dans vos sources (Carstyle)"
   },
   {
    "date": "2026-11-12",
@@ -693,12 +699,6 @@
    "type": "baisse",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
    "texte": "Baisse de prix : Leon Cupra 2024, 23 350 € -> 22 950 € (Dick Automobile)"
-  },
-  {
-   "date": "2026-11-03",
-   "type": "retrait_rapide",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52979392800800",
-   "texte": "Retirée VITE (probablement vendue) : Leon Cupra 2023, 23 350 €, après 5 j en ligne (Dick Automobile)"
   }
  ],
  "sources": [
@@ -707,18 +707,13 @@
    "nom": "CAR-Riesling",
    "ville": "Stuttgart",
    "url": "https://home.mobile.de/AUTORIESLING",
-   "verdict": "ok",
-   "message": "20 annonces, volume normal.",
-   "en_stock": 20,
+   "verdict": "attention",
+   "message": "lecture partielle (8 annonces sur 24 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 24,
    "arrivees": 2,
-   "vendues": 4,
-   "baisses_prix": 8,
+   "vendues": 0,
+   "baisses_prix": 9,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 17,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-19",
      "uniques": 15,
@@ -863,6 +858,11 @@
      "date": "2026-11-16",
      "uniques": 20,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 16,
+     "etat": "incomplet"
     }
    ]
   },
@@ -872,17 +872,12 @@
    "ville": "Siegen",
    "url": "https://home.mobile.de/FAHRZEUGPARKSIEGEN",
    "verdict": "attention",
-   "message": "lecture partielle (5 annonces sur 15 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (6 annonces sur 15 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 15,
    "arrivees": 5,
    "vendues": 0,
    "baisses_prix": 3,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 8,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-19",
      "uniques": 8,
@@ -1027,6 +1022,11 @@
      "date": "2026-11-16",
      "uniques": 10,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 9,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1036,17 +1036,12 @@
    "ville": "Bottrop",
    "url": "https://home.mobile.de/MAAUTOMOBILEBOTTROP",
    "verdict": "attention",
-   "message": "lecture partielle (8 annonces sur 29 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (21 lues sur 24 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 29,
    "arrivees": 8,
    "vendues": 1,
    "baisses_prix": 9,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 24,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-19",
      "uniques": 24,
@@ -1191,6 +1186,11 @@
      "date": "2026-11-16",
      "uniques": 21,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 21,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1201,16 +1201,11 @@
    "url": "https://home.mobile.de/CARSTYLE",
    "verdict": "attention",
    "message": "lecture partielle (27 annonces sur 67 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 67,
+   "en_stock": 53,
    "arrivees": 7,
-   "vendues": 5,
+   "vendues": 17,
    "baisses_prix": 18,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 46,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-19",
      "uniques": 46,
@@ -1355,6 +1350,11 @@
      "date": "2026-11-16",
      "uniques": 40,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 40,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1367,14 +1367,9 @@
    "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 67,
    "arrivees": 6,
-   "vendues": 25,
-   "baisses_prix": 6,
+   "vendues": 19,
+   "baisses_prix": 1,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 39,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-19",
      "uniques": 35,
@@ -1519,6 +1514,11 @@
      "date": "2026-11-16",
      "uniques": 44,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 44,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1528,17 +1528,12 @@
    "ville": "Ebersdorf b. Coburg",
    "url": "https://home.mobile.de/HAASAUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (26 annonces sur 77 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 77,
-   "arrivees": 10,
-   "vendues": 4,
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 78,
+   "arrivees": 12,
+   "vendues": 5,
    "baisses_prix": 10,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 56,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-19",
      "uniques": 56,
@@ -1683,6 +1678,11 @@
      "date": "2026-11-16",
      "uniques": 51,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 55,
+     "etat": "incomplet"
     }
    ]
   },
@@ -1693,16 +1693,11 @@
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
    "verdict": "attention",
    "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 404,
-   "arrivees": 61,
-   "vendues": 47,
-   "baisses_prix": 230,
+   "en_stock": 392,
+   "arrivees": 56,
+   "vendues": 59,
+   "baisses_prix": 215,
    "volumes": [
-    {
-     "date": "2026-10-18",
-     "uniques": 257,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-19",
      "uniques": 280,
@@ -1847,9 +1842,14 @@
      "date": "2026-11-16",
      "uniques": 267,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-17",
+     "uniques": 297,
+     "etat": "incomplet"
     }
    ]
   }
  ],
- "annonces_suivies": 679
+ "annonces_suivies": 658
 }
