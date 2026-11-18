@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "genere_le": "2026-11-18T06:07+00:00",
+ "genere_le": "2026-11-18T23:13+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -28,11 +28,11 @@
  "modeles": {
   "golf7gti": {
    "nom": "Golf 7 GTI",
-   "en_stock": 2,
+   "en_stock": 43,
    "dans_vos_criteres": 0,
    "prix_min": 5990,
-   "prix_median": 12494.5,
-   "arrivees": 1,
+   "prix_median": 29390,
+   "arrivees": 42,
    "vendues": 0,
    "baisses_prix": 0
   },
@@ -48,11 +48,11 @@
   },
   "leoncupra": {
    "nom": "Leon Cupra",
-   "en_stock": 5,
+   "en_stock": 9,
    "dans_vos_criteres": 0,
    "prix_min": 13999,
-   "prix_median": 22350,
-   "arrivees": 1,
+   "prix_median": 22950,
+   "arrivees": 5,
    "vendues": 1,
    "baisses_prix": 2
   }
@@ -151,6 +151,48 @@
    "prix_max_eur": 14100
   },
   {
+   "cle": "mobilede:51962497324640",
+   "source": "RRFAHRZEUGHANDEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51962497324640",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI 300PS MTM Perf. 20\"+Tiefer+Auspuff",
+   "annee": 2016,
+   "mois": 12,
+   "km": 53050,
+   "prix": 17900,
+   "puissance_ch": 300,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Reichert Automobile",
+   "localisation": "Dettingen/Erms",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/e5/e5e07be6-6b54-4d7a-97e0-1c473e826bf7?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 17900
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+1 910 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
    "cle": "mobilede:45743067938752",
    "source": "HAASAUTOMOBILE",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=45743067938752",
@@ -234,6 +276,308 @@
     {
      "champ": "prix",
      "texte": "+3 009 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:54612965336864",
+   "source": "MSAUTOMOBILEGOEPPINGEN",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=54612965336864",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI Performance*PFAUENGRÜN*PANO*DCC*ACC",
+   "annee": 2018,
+   "mois": 7,
+   "km": 130000,
+   "prix": 19490,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": true,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "MS Automobile",
+   "localisation": "Göppingen",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/7f/7fd201cd-585b-4578-9cba-37ee08390994?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 19490
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+3 500 €"
+    },
+    {
+     "champ": "km",
+     "texte": "+1 km"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:456822178",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456822178",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI Performance 2.0 TSI DSG Navi \"DYNAU",
+   "annee": 2016,
+   "mois": 4,
+   "km": 77911,
+   "prix": 19990,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/3e/3ec6b90d-77ae-4077-a97a-a06772e166db?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 19990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+4 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:387321130",
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=387321130",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0TFSI DSG GTI Pirelli 2.HAND nur 92Tkm!",
+   "annee": 2008,
+   "mois": 11,
+   "km": 92260,
+   "prix": 19990,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Autoteile Koch",
+   "localisation": "Georgsmarienhütte",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/b3/b3c41e8d-dce2-4664-8d27-7be90d7445c1?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 19990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+4 000 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "avant 2013"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:56695976693152",
+   "source": "AUTOHAUS-SCHUERER",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56695976693152",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0TSI DSG GTI",
+   "annee": 2017,
+   "mois": 3,
+   "km": 93900,
+   "prix": 20789,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Autohaus Schürer",
+   "localisation": "Dießen am Ammersee",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/e3/e37e5ac1-e77f-4464-a0eb-2f9859e975af?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 20789
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+4 799 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:44448165356640",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=44448165356640",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI Performance 2.0 TSI AHK Navi LED Pa",
+   "annee": 2019,
+   "mois": 1,
+   "km": 107822,
+   "prix": 20990,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d0/d074600c-aa0e-427e-b15a-c06cd8c487b3?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 20990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+5 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:456907846",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456907846",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI 2.0 TSI ACC Navi LED Einparkh. Clim",
+   "annee": 2018,
+   "mois": 8,
+   "km": 69183,
+   "prix": 20990,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/81/817e05ca-a27b-48c0-8c0d-2f63dfa442a1?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 20990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+5 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:461746623",
+   "source": "MSAUTOMOBILEGOEPPINGEN",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=461746623",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII Lim. GTI Performance*ACC*PANO*R.KAM*",
+   "annee": 2020,
+   "mois": 1,
+   "km": 97000,
+   "prix": 21490,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": true,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "MS Automobile",
+   "localisation": "Göppingen",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/38/38f3f1b1-33a7-4b59-a7f7-d909cd850bf7?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 21490
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+5 500 €"
     }
    ],
    "prix_max_eur": 15990
@@ -416,6 +760,1576 @@
     {
      "champ": "annee",
      "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:53877415304352",
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53877415304352",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0 TSI DSG GTI Performance NAVI ACC LED",
+   "annee": 2019,
+   "mois": 11,
+   "km": 74450,
+   "prix": 22990,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autoteile Koch",
+   "localisation": "Georgsmarienhütte",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a4/a408e27f-e6c2-4887-8924-577904c1262a?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 22990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+7 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:54095704919328",
+   "source": "MSAUTOMOBILEGOEPPINGEN",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=54095704919328",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII Lim. GTI TCR*AKRAPOVIC*ACC*DYNAUDIO*",
+   "annee": 2019,
+   "mois": 10,
+   "km": 107000,
+   "prix": 23990,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "MS Automobile",
+   "localisation": "Göppingen",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/04/04e1e8b4-b962-4290-94ee-1bc417bf334d?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 23990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+8 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:42948887458912",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=42948887458912",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI Performance 2.0 TSI DSG ACC LED Nav",
+   "annee": 2019,
+   "mois": 9,
+   "km": 69721,
+   "prix": 23990,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/5e/5eb005dc-f25d-460b-9a23-78b8e83b309d?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 23990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+8 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:458712335",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=458712335",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI Performance 2.0 TSI DSG ACC LED Nav",
+   "annee": 2019,
+   "mois": 11,
+   "km": 63000,
+   "prix": 23990,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "Performance",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/8a/8ab50d48-9f5e-4e48-8ef8-dd42aeda87fe?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 23990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+8 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:454510805",
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=454510805",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0TSI DSG BMT GTI Clubsport NAVI LEDER",
+   "annee": 2016,
+   "mois": 5,
+   "km": 99980,
+   "prix": 24990,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "Clubsport",
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Autoteile Koch",
+   "localisation": "Georgsmarienhütte",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/68/68689ebd-5bd4-406e-b808-6b5c0eb75919?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 24990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+9 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:43469728024256",
+   "source": "STOLLBOETTNERGMBH",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=43469728024256",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII 2.0 TSI GTI TCR Navi+ACC+IQ-Drive+Leder",
+   "annee": 2020,
+   "mois": 3,
+   "km": 76800,
+   "prix": 25490,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Stoll GmbH",
+   "localisation": "Waldshut-Tiengen",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/79/794402e3-0a09-4353-8979-95ccaacf87a5?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 25490
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+9 500 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:423527406",
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=423527406",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0 TSI DSG GTI TCR ACC 19Zoll NAVI 1.HAND",
+   "annee": 2019,
+   "mois": 8,
+   "km": 89980,
+   "prix": 25990,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autoteile Koch",
+   "localisation": "Georgsmarienhütte",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d6/d6577bc2-03c1-4336-9a4a-931b06738f6a?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 25990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+10 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:439641883",
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=439641883",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0TSI DSG GTI TCR AKRAPOVIC LED ACC NAVI",
+   "annee": 2020,
+   "mois": 1,
+   "km": 99980,
+   "prix": 25990,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autoteile Koch",
+   "localisation": "Georgsmarienhütte",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/39/39b69dd5-e02f-4cb8-b172-c4b1d8d466a8?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 25990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+10 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:54094923879712",
+   "source": "MSAUTOMOBILEGOEPPINGEN",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=54094923879712",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII Lim. GTI TCR*AKRAPOVIC*ACC*R.KAM*",
+   "annee": 2019,
+   "mois": 11,
+   "km": 76000,
+   "prix": 26990,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "MS Automobile",
+   "localisation": "Göppingen",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d4/d4e031e4-3363-403b-9e99-b725f6778d42?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 26990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+11 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:51618067914208",
+   "source": "AUTOHAUS-WORCH",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51618067914208",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI DSG TCR AKRA+PANO+KAMERA+LEDER+",
+   "annee": 2020,
+   "mois": 3,
+   "km": 78745,
+   "prix": 27949,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": true,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autohaus Worch",
+   "localisation": "Südharz",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/12/1264d47d-fc30-4257-bd6e-2cd5dd804c84?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 27949
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+11 959 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:47352700900256",
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=47352700900256",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0TSI GTI TCR AKRAPOVIC PURE GREY 2.HAND",
+   "annee": 2019,
+   "mois": 11,
+   "km": 97850,
+   "prix": 27990,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autoteile Koch",
+   "localisation": "Georgsmarienhütte",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/f6/f6c40394-d81b-4ccb-88ce-7a9f644dde5d?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 27990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+12 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:55822194878176",
+   "source": "RRFAHRZEUGHANDEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=55822194878176",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "ST VZ 245PS DSG #NAVI #KAMERA #DCC",
+   "annee": 2024,
+   "mois": 5,
+   "km": 7700,
+   "prix": 28190,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Reichert Automobile",
+   "localisation": "Dettingen/Erms",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/de/de3fe839-8ae8-4086-9a6e-15767f21bc52?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 28190
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+12 200 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:436439265",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=436439265",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI TCR 2.0 TSI DSG ACC AKRAPOVIC Navi",
+   "annee": 2019,
+   "mois": 11,
+   "km": 61727,
+   "prix": 29390,
+   "puissance_ch": 290,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "TCR",
+   "phase": "2",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/9b/9b198e2e-87ff-41ef-bf72-b4816ad3cd2f?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 29390
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+13 400 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:450870093",
+   "source": "RRFAHRZEUGHANDEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=450870093",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "ST VZ 4Drive 310PS #19\" #BEATS #",
+   "annee": 2022,
+   "mois": 11,
+   "km": 48000,
+   "prix": 29970,
+   "puissance_ch": 310,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Reichert Automobile",
+   "localisation": "Dettingen/Erms",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/ed/ed46e8c9-ec9d-4119-80bc-1ade72089764?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 29970
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+13 980 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:459655247",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=459655247",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "VZ 2.0 TSI Pano Matrix LM 19\" Navi RFK ACC",
+   "annee": 2024,
+   "mois": 3,
+   "km": 27280,
+   "prix": 31680,
+   "puissance_ch": 300,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": true,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/1a/1af83d27-9d77-4bd9-930e-89d25dead888?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 31680
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+15 690 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:39365051979712",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=39365051979712",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "ST VZ 2.0 TSI 4D Matrix-LED LM 19\" RFK ACC",
+   "annee": 2025,
+   "mois": 2,
+   "km": 50540,
+   "prix": 34080,
+   "puissance_ch": 333,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/24/24004a87-5e17-4985-bdca-3b1706561c8d?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 34080
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+18 090 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48395363041248",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48395363041248",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2,0 l Black StyleTSI H&K LM\"19 LED",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 39450,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d5/d5afc25c-55ca-4cae-9161-c1f413dc3ce7?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 39450
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+23 460 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48395378159584",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48395378159584",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI Harman Kardon 19\" LED+ Black Style RFK",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 39450,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/87/872ee9c3-ee6b-4320-b1e5-13b2d6fbb451?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 39450
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+23 460 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:56537801497856",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56537801497856",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI Harman Kardon 19\" LED+ Black Style RFK",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 39450,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/71/71649913-6500-404b-a241-b7bce63065a7?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 39450
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+23 460 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:56537803394080",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56537803394080",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI Harman Kardon 19\" LED+ Black Style RFK",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 39450,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/71/71649913-6500-404b-a241-b7bce63065a7?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 39450
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+23 460 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:55299998371328",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=55299998371328",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2,0 l TSI Harman Kardon LED RFK Sitzhei",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 40690,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/4a/4a7a1cf9-ba55-4308-805e-74d23f9b1f50?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 40690
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+24 700 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:52997764954560",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52997764954560",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2.0 TSI 195 kW 7-Gang-DSG LED ACC DAB",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 41480,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/24/246ad729-f26f-4ea3-aa9b-d7e15b2b5c46?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 41480
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+25 490 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:52328392249056",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52328392249056",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2.0 TSI 195 kW 7-Gang-DSG LED ACC DAB",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 41480,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/ce/cefab7bf-c9c6-4bea-b12d-2600c08b64be?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 41480
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+25 490 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:52328386180032",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52328386180032",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2.0 TSI 195 kW 7-Gang-DSG LED ACC DAB",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 41580,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/11/112a9dad-8cea-458d-a8f1-53b7d36e3520?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 41580
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+25 590 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48611827884672",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48611827884672",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 2.0 TSI 239 kW 7-Gang-DSG",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 49980,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/b3/b3c31f06-ac64-480b-a439-90232aa9ba20?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 49980
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+33 990 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:56892315452032",
+   "source": "AH-GLINICKE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56892315452032",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2,0 l TSI 195 kW (265 PS) 7-Gang-Doppel",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 51505,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Glinicke",
+   "localisation": "Minden",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/ca/ca740220-044d-477e-bb20-c75e4a3efe62?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 51505
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+35 515 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:55826999899136",
+   "source": "CREUSEN",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=55826999899136",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI 2,0 l TSI OPF 195 kW (265 PS) 7-Gang-Do",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 54340,
+   "puissance_ch": 265,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Creusen + Scherer",
+   "localisation": "Alzey",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/3b/3b6f417e-7aec-4db9-8ca7-67f8df9c74c1?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 54340
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+38 350 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48611847453184",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48611847453184",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 2.0 TSI 239 kW 7-Gang-DSG",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 54880,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/08/080b3bbf-7c6a-4a8b-bb3d-80c0c5ff5509?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 54880
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+38 890 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:460913524",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=460913524",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI *EDITION 50* 2.0 TSI 239 kW 7-Gang-DSG",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 54980,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/2b/2b625434-e75f-451a-a90b-644a274f10a4?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 54980
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+38 990 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48611830346944",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48611830346944",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 2.0 TSI 239 kW 7-Gang-DSG",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 54980,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/43/43e1d9aa-a996-4afd-9bf9-73aa15218eae?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 54980
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+38 990 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:460566753",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=460566753",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI *EDITION 50* 2.0 TSI 239kW 7-Gang-DSG",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 54980,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d6/d68715b2-31b1-4ec8-a765-f493a1bf3f6e?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 54980
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+38 990 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:50556539888672",
+   "source": "AUTOHAUS-WORCH",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=50556539888672",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 2.0 TSI DSG LED Alu",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 59119,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Worch",
+   "localisation": "Südharz",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/3a/3a97551b-a55a-478c-af02-d7e566304098?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 59119
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+43 129 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:56535667695232",
+   "source": "CREUSEN",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56535667695232",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 2,0 l TSI OPF 239 kW (325 PS",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 59650,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Creusen + Scherer",
+   "localisation": "Alzey",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/e0/e0871b14-81f4-41af-b7a9-bd52b3f70da1?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 59650
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+43 660 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48580844141408",
+   "source": "AUTOHAUS-WORCH",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48580844141408",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 +Winterräder+19\"+MATRIX+",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 59989,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Worch",
+   "localisation": "Südharz",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/ca/cac00764-a5b5-4bec-bb94-04beaab13675?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 59989
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+43 999 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:48580865077792",
+   "source": "AUTOHAUS-WORCH",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=48580865077792",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "GTI EDITION 50 +Winterräder+19\"+MATRIX+",
+   "annee": null,
+   "mois": null,
+   "km": null,
+   "prix": 59989,
+   "puissance_ch": 325,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": null,
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Autohaus Worch",
+   "localisation": "Südharz",
+   "criteres": "incomplet",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/8c/8c33d82a-8dcc-4fac-8cac-211cb19c56c4?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 59989
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+43 999 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:439410527",
+   "source": "AUTO-STROBEL",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=439410527",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "VII GTI Clubsport S 2.0 TSI Nr. 284/400 310",
+   "annee": 2017,
+   "mois": 1,
+   "km": 4003,
+   "prix": 64990,
+   "puissance_ch": 310,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "Clubsport S",
+   "phase": "à vérifier",
+   "accidente": null,
+   "vendeur": "Autohaus Strobel",
+   "localisation": "Schnaittach",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/0f/0f6ec618-92d5-4374-897c-a7ebc576773a?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 64990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+49 000 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:51278059215552",
+   "source": "STOLLBOETTNERGMBH",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51278059215552",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0 TSI GTI Clubsport S APR 1 von 400",
+   "annee": 2017,
+   "mois": 1,
+   "km": 3750,
+   "prix": 64990,
+   "puissance_ch": 381,
+   "carburant": "Benzin",
+   "transmission": null,
+   "toit_ouvrant": null,
+   "finition": "Clubsport S",
+   "phase": "à vérifier",
+   "accidente": null,
+   "vendeur": "Stoll GmbH",
+   "localisation": "Waldshut-Tiengen",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/8c/8c758c6b-a3de-4b9e-9038-0f8b157c7f19?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-18",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 64990
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+49 000 €"
     }
    ],
    "prix_max_eur": 15990
@@ -1853,7 +3767,137 @@
      "etat": "incomplet"
     }
    ]
+  },
+  {
+   "source": "MSAUTOMOBILEGOEPPINGEN",
+   "nom": "MS Automobile",
+   "ville": "Göppingen",
+   "url": "https://home.mobile.de/MSAUTOMOBILEGOEPPINGEN",
+   "verdict": "ok",
+   "message": "22 annonces, volume normal.",
+   "en_stock": 22,
+   "arrivees": 22,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "AH-GLINICKE",
+   "nom": "Autohaus Glinicke",
+   "ville": "Minden",
+   "url": "https://home.mobile.de/AH-GLINICKE",
+   "verdict": "attention",
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 295,
+   "arrivees": 295,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "AUTOHAUS-WORCH",
+   "nom": "Autohaus Worch",
+   "ville": "Südharz",
+   "url": "https://home.mobile.de/AUTOHAUS-WORCH",
+   "verdict": "attention",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 194,
+   "arrivees": 194,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "CREUSEN",
+   "nom": "Autohaus Creusen + Scherer",
+   "ville": "Alzey",
+   "url": "https://home.mobile.de/CREUSEN",
+   "verdict": "attention",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 144,
+   "arrivees": 144,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "AUTOHAUS-RANGE",
+   "nom": "Autohaus Range",
+   "ville": "Fritzlar",
+   "url": "https://home.mobile.de/AUTOHAUS-RANGE",
+   "verdict": "ok",
+   "message": "248 annonces, volume normal.",
+   "en_stock": 248,
+   "arrivees": 248,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "AUTOHAUS-SCHUERER",
+   "nom": "Autohaus Schürer",
+   "ville": "Dießen am Ammersee",
+   "url": "https://home.mobile.de/AUTOHAUS-SCHUERER",
+   "verdict": "attention",
+   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 99,
+   "arrivees": 99,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "RRFAHRZEUGHANDEL",
+   "nom": "Reichert Automobile",
+   "ville": "Dettingen/Erms",
+   "url": "https://home.mobile.de/RRFAHRZEUGHANDEL",
+   "verdict": "attention",
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 117,
+   "arrivees": 117,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "STOLLBOETTNERGMBH",
+   "nom": "Stoll GmbH",
+   "ville": "Waldshut-Tiengen",
+   "url": "https://home.mobile.de/STOLLBOETTNERGMBH",
+   "verdict": "attention",
+   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 82,
+   "arrivees": 82,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "nom": "Autoteile Koch",
+   "ville": "Georgsmarienhütte",
+   "url": "https://home.mobile.de/AUTOTEILEKOCHGEORGSMARIENHUETTE",
+   "verdict": "attention",
+   "message": "lecture partielle (mobile.de a servi plusieurs versions des pages pendant la lecture) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 140,
+   "arrivees": 140,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
+  },
+  {
+   "source": "AUTO-STROBEL",
+   "nom": "Autohaus Strobel",
+   "ville": "Schnaittach",
+   "url": "https://home.mobile.de/AUTO-STROBEL",
+   "verdict": "ok",
+   "message": "494 annonces, volume normal.",
+   "en_stock": 494,
+   "arrivees": 494,
+   "vendues": 0,
+   "baisses_prix": 0,
+   "volumes": []
   }
  ],
- "annonces_suivies": 660
+ "annonces_suivies": 2495
 }
