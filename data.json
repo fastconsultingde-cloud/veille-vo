@@ -1,6 +1,6 @@
 {
- "date": "2026-11-19",
- "genere_le": "2026-11-19T06:28+00:00",
+ "date": "2026-11-20",
+ "genere_le": "2026-11-20T06:25+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -22,8 +22,8 @@
   }
  },
  "semaine": {
-  "debut": "2026-11-13",
-  "fin": "2026-11-19"
+  "debut": "2026-11-14",
+  "fin": "2026-11-20"
  },
  "modeles": {
   "golf7gti": {
@@ -131,7 +131,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -173,7 +173,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/e5/e5e07be6-6b54-4d7a-97e0-1c473e826bf7?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -261,7 +261,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -303,7 +303,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/7f/7fd201cd-585b-4578-9cba-37ee08390994?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -349,7 +349,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/3e/3ec6b90d-77ae-4077-a97a-a06772e166db?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -391,7 +391,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/b3/b3c41e8d-dce2-4664-8d27-7be90d7445c1?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -410,48 +410,6 @@
     {
      "champ": "annee",
      "texte": "avant 2013"
-    }
-   ],
-   "prix_max_eur": 15990
-  },
-  {
-   "cle": "mobilede:56695976693152",
-   "source": "AUTOHAUS-SCHUERER",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56695976693152",
-   "marque": "Volkswagen",
-   "modele": "Golf",
-   "version": "2.0TSI DSG GTI",
-   "annee": 2017,
-   "mois": 3,
-   "km": 93900,
-   "prix": 20789,
-   "puissance_ch": 230,
-   "carburant": "Benzin",
-   "transmission": "DSG",
-   "toit_ouvrant": null,
-   "finition": null,
-   "phase": "1",
-   "accidente": null,
-   "vendeur": "Autohaus Schürer",
-   "localisation": "Dießen am Ammersee",
-   "criteres": "hors",
-   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/e3/e37e5ac1-e77f-4464-a0eb-2f9859e975af?rule=mo-1600",
-   "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
-   "actif": true,
-   "retiree_le": null,
-   "historique_prix": [
-    {
-     "date": "2026-11-18",
-     "prix": 20789
-    }
-   ],
-   "modele_cible": "golf7gti",
-   "nom_modele": "Golf 7 GTI",
-   "ecarts": [
-    {
-     "champ": "prix",
-     "texte": "+4 799 €"
     }
    ],
    "prix_max_eur": 15990
@@ -479,7 +437,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d0/d074600c-aa0e-427e-b15a-c06cd8c487b3?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -521,7 +479,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/81/817e05ca-a27b-48c0-8c0d-2f63dfa442a1?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -563,7 +521,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/38/38f3f1b1-33a7-4b59-a7f7-d909cd850bf7?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -578,6 +536,52 @@
     {
      "champ": "prix",
      "texte": "+5 500 €"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
+   "cle": "mobilede:56695976693152",
+   "source": "AUTOHAUS-SCHUERER",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=56695976693152",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "version": "2.0TSI DSG GTI Pano StdHz Keyless Dynaudio",
+   "annee": 2017,
+   "mois": 3,
+   "km": 93900,
+   "prix": 21897,
+   "puissance_ch": 230,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": true,
+   "finition": null,
+   "phase": "1",
+   "accidente": null,
+   "vendeur": "Autohaus Schürer",
+   "localisation": "Dießen am Ammersee",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/2a/2a4d90ba-78f3-42e7-8d24-4d834e77e0f3?rule=mo-1600",
+   "premiere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-20",
+   "actif": true,
+   "retiree_le": null,
+   "historique_prix": [
+    {
+     "date": "2026-11-18",
+     "prix": 20789
+    },
+    {
+     "date": "2026-11-20",
+     "prix": 21897
+    }
+   ],
+   "modele_cible": "golf7gti",
+   "nom_modele": "Golf 7 GTI",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+5 907 €"
     }
    ],
    "prix_max_eur": 15990
@@ -787,7 +791,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a4/a408e27f-e6c2-4887-8924-577904c1262a?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -829,7 +833,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/04/04e1e8b4-b962-4290-94ee-1bc417bf334d?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -871,7 +875,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/5e/5eb005dc-f25d-460b-9a23-78b8e83b309d?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -913,7 +917,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/8a/8ab50d48-9f5e-4e48-8ef8-dd42aeda87fe?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -955,7 +959,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/68/68689ebd-5bd4-406e-b808-6b5c0eb75919?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -997,7 +1001,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/79/794402e3-0a09-4353-8979-95ccaacf87a5?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1039,7 +1043,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d6/d6577bc2-03c1-4336-9a4a-931b06738f6a?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1081,7 +1085,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/39/39b69dd5-e02f-4cb8-b172-c4b1d8d466a8?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1123,7 +1127,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d4/d4e031e4-3363-403b-9e99-b725f6778d42?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1165,7 +1169,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/12/1264d47d-fc30-4257-bd6e-2cd5dd804c84?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1207,7 +1211,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/f6/f6c40394-d81b-4ccb-88ce-7a9f644dde5d?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1249,7 +1253,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/de/de3fe839-8ae8-4086-9a6e-15767f21bc52?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1295,7 +1299,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/9b/9b198e2e-87ff-41ef-bf72-b4816ad3cd2f?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1320,7 +1324,7 @@
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=450870093",
    "marque": "Cupra",
    "modele": "Leon",
-   "version": "ST VZ 4Drive 310PS #19\" #BEATS \\#",
+   "version": "ST VZ 4Drive 310PS #19\" #BEATS #",
    "annee": 2022,
    "mois": 11,
    "km": 48000,
@@ -1337,7 +1341,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/ed/ed46e8c9-ec9d-4119-80bc-1ade72089764?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1381,9 +1385,9 @@
    "vendeur": "Autohaus Glinicke",
    "localisation": "Minden",
    "criteres": "hors",
-   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/1a/1af83d27-9d77-4bd9-930e-89d25dead888?rule=mo-1600",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/9b/9b25fdd2-d6a6-4383-ac7f-2f9789741c90?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1429,7 +1433,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/24/24004a87-5e17-4985-bdca-3b1706561c8d?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1475,7 +1479,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/0f/0f6ec618-92d5-4374-897c-a7ebc576773a?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1517,7 +1521,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/8c/8c758c6b-a3de-4b9e-9038-0f8b157c7f19?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1761,6 +1765,18 @@
  ],
  "evenements": [
   {
+   "date": "2026-11-20",
+   "type": "rafale",
+   "url": null,
+   "texte": "Autohaus Worch publie d'un coup 3 nouvelles Volkswagen Tiguan"
+  },
+  {
+   "date": "2026-11-20",
+   "type": "rafale",
+   "url": null,
+   "texte": "Autohaus Worch publie d'un coup 7 nouvelles Volkswagen Golf"
+  },
+  {
    "date": "2026-11-18",
    "type": "baisse",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=51738589821760",
@@ -1827,18 +1843,13 @@
    "nom": "CAR-Riesling",
    "ville": "Stuttgart",
    "url": "https://home.mobile.de/AUTORIESLING",
-   "verdict": "attention",
-   "message": "lecture partielle (8 annonces sur 24 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "verdict": "ok",
+   "message": "16 annonces, volume normal.",
    "en_stock": 16,
    "arrivees": 2,
    "vendues": 8,
    "baisses_prix": 9,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 15,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-22",
      "uniques": 15,
@@ -1983,6 +1994,11 @@
      "date": "2026-11-19",
      "uniques": 16,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 16,
+     "etat": "ok"
     }
    ]
   },
@@ -1992,17 +2008,12 @@
    "ville": "Siegen",
    "url": "https://home.mobile.de/FAHRZEUGPARKSIEGEN",
    "verdict": "attention",
-   "message": "lecture partielle (6 annonces sur 15 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (5 annonces sur 14 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 14,
    "arrivees": 5,
    "vendues": 1,
    "baisses_prix": 8,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 8,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-22",
      "uniques": 9,
@@ -2147,6 +2158,11 @@
      "date": "2026-11-19",
      "uniques": 9,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 9,
+     "etat": "incomplet"
     }
    ]
   },
@@ -2162,11 +2178,6 @@
    "vendues": 9,
    "baisses_prix": 5,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 20,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-22",
      "uniques": 19,
@@ -2311,6 +2322,11 @@
      "date": "2026-11-19",
      "uniques": 21,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 21,
+     "etat": "ok"
     }
    ]
   },
@@ -2323,14 +2339,9 @@
    "message": "lecture partielle (14 annonces sur 54 absentes d'un coup : mobile.de a sans doute servi une version réduite de la page) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 54,
    "arrivees": 10,
-   "vendues": 17,
+   "vendues": 16,
    "baisses_prix": 18,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 46,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-22",
      "uniques": 45,
@@ -2475,6 +2486,11 @@
      "date": "2026-11-19",
      "uniques": 40,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 40,
+     "etat": "incomplet"
     }
    ]
   },
@@ -2488,13 +2504,8 @@
    "en_stock": 87,
    "arrivees": 8,
    "vendues": 5,
-   "baisses_prix": 2,
+   "baisses_prix": 1,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 40,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-22",
      "uniques": 40,
@@ -2639,6 +2650,11 @@
      "date": "2026-11-19",
      "uniques": 38,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 38,
+     "etat": "incomplet"
     }
    ]
   },
@@ -2654,11 +2670,6 @@
    "vendues": 4,
    "baisses_prix": 7,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 57,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-22",
      "uniques": 57,
@@ -2803,6 +2814,11 @@
      "date": "2026-11-19",
      "uniques": 0,
      "etat": "erreur"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 0,
+     "etat": "erreur"
     }
    ]
   },
@@ -2814,15 +2830,10 @@
    "verdict": "panne",
    "message": "source illisible ce matin : aucune annonce récupérée. Ce n'est pas un marché calme.",
    "en_stock": 382,
-   "arrivees": 59,
-   "vendues": 70,
-   "baisses_prix": 186,
+   "arrivees": 49,
+   "vendues": 68,
+   "baisses_prix": 168,
    "volumes": [
-    {
-     "date": "2026-10-21",
-     "uniques": 252,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-22",
      "uniques": 257,
@@ -2967,6 +2978,11 @@
      "date": "2026-11-19",
      "uniques": 0,
      "etat": "erreur"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 0,
+     "etat": "erreur"
     }
    ]
   },
@@ -2986,6 +3002,11 @@
      "date": "2026-11-19",
      "uniques": 22,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 22,
+     "etat": "ok"
     }
    ]
   },
@@ -2995,15 +3016,20 @@
    "ville": "Minden",
    "url": "https://home.mobile.de/AH-GLINICKE",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 295,
-   "arrivees": 296,
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 300,
+   "arrivees": 300,
    "vendues": 0,
-   "baisses_prix": 0,
+   "baisses_prix": 28,
    "volumes": [
     {
      "date": "2026-11-19",
      "uniques": 275,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 255,
      "etat": "incomplet"
     }
    ]
@@ -3014,15 +3040,20 @@
    "ville": "Südharz",
    "url": "https://home.mobile.de/AUTOHAUS-WORCH",
    "verdict": "attention",
-   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 194,
-   "arrivees": 194,
+   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 217,
+   "arrivees": 217,
    "vendues": 0,
-   "baisses_prix": 0,
+   "baisses_prix": 8,
    "volumes": [
     {
      "date": "2026-11-19",
      "uniques": 194,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 208,
      "etat": "incomplet"
     }
    ]
@@ -3034,14 +3065,19 @@
    "url": "https://home.mobile.de/CREUSEN",
    "verdict": "attention",
    "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 144,
-   "arrivees": 144,
+   "en_stock": 147,
+   "arrivees": 147,
    "vendues": 0,
-   "baisses_prix": 0,
+   "baisses_prix": 9,
    "volumes": [
     {
      "date": "2026-11-19",
      "uniques": 144,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 142,
      "etat": "incomplet"
     }
    ]
@@ -3051,17 +3087,22 @@
    "nom": "Autohaus Range",
    "ville": "Fritzlar",
    "url": "https://home.mobile.de/AUTOHAUS-RANGE",
-   "verdict": "attention",
-   "message": "lecture partielle (253 lues sur 254 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 248,
-   "arrivees": 248,
-   "vendues": 0,
+   "verdict": "ok",
+   "message": "249 annonces, volume normal.",
+   "en_stock": 249,
+   "arrivees": 254,
+   "vendues": 4,
    "baisses_prix": 0,
    "volumes": [
     {
      "date": "2026-11-19",
      "uniques": 248,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 249,
+     "etat": "ok"
     }
    ]
   },
@@ -3072,13 +3113,18 @@
    "url": "https://home.mobile.de/AUTOHAUS-SCHUERER",
    "verdict": "attention",
    "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 100,
-   "arrivees": 99,
+   "en_stock": 103,
+   "arrivees": 102,
    "vendues": 0,
-   "baisses_prix": 0,
+   "baisses_prix": 9,
    "volumes": [
     {
      "date": "2026-11-19",
+     "uniques": 100,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
      "uniques": 100,
      "etat": "incomplet"
     }
@@ -3094,11 +3140,16 @@
    "en_stock": 117,
    "arrivees": 117,
    "vendues": 0,
-   "baisses_prix": 0,
+   "baisses_prix": 1,
    "volumes": [
     {
      "date": "2026-11-19",
      "uniques": 117,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 116,
      "etat": "incomplet"
     }
    ]
@@ -3109,7 +3160,7 @@
    "ville": "Waldshut-Tiengen",
    "url": "https://home.mobile.de/STOLLBOETTNERGMBH",
    "verdict": "attention",
-   "message": "lecture partielle (3 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 82,
    "arrivees": 82,
    "vendues": 0,
@@ -3117,6 +3168,11 @@
    "volumes": [
     {
      "date": "2026-11-19",
+     "uniques": 82,
+     "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
      "uniques": 82,
      "etat": "incomplet"
     }
@@ -3127,10 +3183,10 @@
    "nom": "Autoteile Koch",
    "ville": "Georgsmarienhütte",
    "url": "https://home.mobile.de/AUTOTEILEKOCHGEORGSMARIENHUETTE",
-   "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 140,
-   "arrivees": 140,
+   "verdict": "ok",
+   "message": "141 annonces, volume normal.",
+   "en_stock": 141,
+   "arrivees": 141,
    "vendues": 0,
    "baisses_prix": 0,
    "volumes": [
@@ -3138,6 +3194,11 @@
      "date": "2026-11-19",
      "uniques": 140,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 141,
+     "etat": "ok"
     }
    ]
   },
@@ -3147,9 +3208,9 @@
    "ville": "Schnaittach",
    "url": "https://home.mobile.de/AUTO-STROBEL",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 496,
-   "arrivees": 494,
+   "message": "lecture partielle (3 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 500,
+   "arrivees": 498,
    "vendues": 0,
    "baisses_prix": 0,
    "volumes": [
@@ -3157,9 +3218,14 @@
      "date": "2026-11-19",
      "uniques": 476,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-20",
+     "uniques": 434,
+     "etat": "incomplet"
     }
    ]
   }
  ],
- "annonces_suivies": 2490
+ "annonces_suivies": 2530
 }
