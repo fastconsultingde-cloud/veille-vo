@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "genere_le": "2026-11-26T06:38+00:00",
+ "date": "2026-11-27",
+ "genere_le": "2026-11-27T06:26+00:00",
  "criteres": {
   "prix_min_eur": 10000,
   "prix_max_eur": 15990,
@@ -22,8 +22,8 @@
   }
  },
  "semaine": {
-  "debut": "2026-11-20",
-  "fin": "2026-11-26"
+  "debut": "2026-11-21",
+  "fin": "2026-11-27"
  },
  "modeles": {
   "golf7gti": {
@@ -48,12 +48,12 @@
   },
   "leoncupra": {
    "nom": "Leon Cupra",
-   "en_stock": 9,
+   "en_stock": 8,
    "dans_vos_criteres": 0,
    "prix_min": 13999,
-   "prix_median": 23350,
+   "prix_median": 25770.0,
    "arrivees": 0,
-   "vendues": 1,
+   "vendues": 2,
    "baisses_prix": 3
   }
  },
@@ -81,7 +81,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/a9/a9cfae67-9cae-4763-b059-4fb1e6ea87b7?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-26",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -123,7 +123,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/e5/e5e07be6-6b54-4d7a-97e0-1c473e826bf7?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-25",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -211,7 +211,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/01/010767af-7c38-4fab-ae0c-ad9e8f1e15e3?rule=mo-1600",
    "premiere_vue": "2026-10-14",
-   "derniere_vue": "2026-11-26",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -295,7 +295,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/b3/b3c41e8d-dce2-4664-8d27-7be90d7445c1?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-25",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -491,64 +491,6 @@
    "prix_max_eur": 15990
   },
   {
-   "cle": "mobilede:53009337275008",
-   "source": "DICK-AUTOMOBILE",
-   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53009337275008",
-   "marque": "Cupra",
-   "modele": "Leon",
-   "version": "Sportst 2.0 DSG VZ BLACK+VIRTU+LED+NAVI+19\"",
-   "annee": 2024,
-   "mois": 3,
-   "km": 19410,
-   "prix": 22250,
-   "puissance_ch": 245,
-   "carburant": "Benzin",
-   "transmission": "DSG",
-   "toit_ouvrant": null,
-   "finition": "VZ",
-   "phase": null,
-   "accidente": null,
-   "vendeur": "Dick Automobile",
-   "localisation": "Bebra",
-   "criteres": "hors",
-   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdeae0a5-98fa-450f-aa1c-f0c0d2f38510?rule=mo-1600",
-   "premiere_vue": "2026-10-29",
-   "derniere_vue": "2026-11-23",
-   "actif": true,
-   "retiree_le": null,
-   "historique_prix": [
-    {
-     "date": "2026-10-29",
-     "prix": 22950
-    },
-    {
-     "date": "2026-10-31",
-     "prix": 22750
-    },
-    {
-     "date": "2026-11-02",
-     "prix": 22350
-    },
-    {
-     "date": "2026-11-23",
-     "prix": 22250
-    }
-   ],
-   "modele_cible": "leoncupra",
-   "nom_modele": "Leon Cupra",
-   "ecarts": [
-    {
-     "champ": "prix",
-     "texte": "+6 260 €"
-    },
-    {
-     "champ": "annee",
-     "texte": "après 2018"
-    }
-   ],
-   "prix_max_eur": 15990
-  },
-  {
    "cle": "mobilede:52979392800800",
    "source": "DICK-AUTOMOBILE",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=52979392800800",
@@ -705,7 +647,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/07/074153da-aa4f-482b-a218-f5f89c7ca3ea?rule=mo-1600",
    "premiere_vue": "2026-10-23",
-   "derniere_vue": "2026-11-26",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -963,7 +905,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/68/68689ebd-5bd4-406e-b808-6b5c0eb75919?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-25",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1005,7 +947,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/79/794402e3-0a09-4353-8979-95ccaacf87a5?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-25",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1089,7 +1031,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/d6/d6577bc2-03c1-4336-9a4a-931b06738f6a?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-25",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1131,7 +1073,7 @@
    "criteres": "hors",
    "photo": "https://img.classistatic.de/api/v1/mo-prod/images/39/39b69dd5-e02f-4cb8-b172-c4b1d8d466a8?rule=mo-1600",
    "premiere_vue": "2026-11-18",
-   "derniere_vue": "2026-11-25",
+   "derniere_vue": "2026-11-27",
    "actif": true,
    "retiree_le": null,
    "historique_prix": [
@@ -1947,6 +1889,64 @@
    "prix_max_eur": 15990
   },
   {
+   "cle": "mobilede:53009337275008",
+   "source": "DICK-AUTOMOBILE",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53009337275008",
+   "marque": "Cupra",
+   "modele": "Leon",
+   "version": "Sportst 2.0 DSG VZ BLACK+VIRTU+LED+NAVI+19\"",
+   "annee": 2024,
+   "mois": 3,
+   "km": 19410,
+   "prix": 22250,
+   "puissance_ch": 245,
+   "carburant": "Benzin",
+   "transmission": "DSG",
+   "toit_ouvrant": null,
+   "finition": "VZ",
+   "phase": null,
+   "accidente": null,
+   "vendeur": "Dick Automobile",
+   "localisation": "Bebra",
+   "criteres": "hors",
+   "photo": "https://img.classistatic.de/api/v1/mo-prod/images/fd/fdeae0a5-98fa-450f-aa1c-f0c0d2f38510?rule=mo-1600",
+   "premiere_vue": "2026-10-29",
+   "derniere_vue": "2026-11-23",
+   "actif": false,
+   "retiree_le": "2026-11-27",
+   "historique_prix": [
+    {
+     "date": "2026-10-29",
+     "prix": 22950
+    },
+    {
+     "date": "2026-10-31",
+     "prix": 22750
+    },
+    {
+     "date": "2026-11-02",
+     "prix": 22350
+    },
+    {
+     "date": "2026-11-23",
+     "prix": 22250
+    }
+   ],
+   "modele_cible": "leoncupra",
+   "nom_modele": "Leon Cupra",
+   "ecarts": [
+    {
+     "champ": "prix",
+     "texte": "+6 260 €"
+    },
+    {
+     "champ": "annee",
+     "texte": "après 2018"
+    }
+   ],
+   "prix_max_eur": 15990
+  },
+  {
    "cle": "mobilede:55647601777440",
    "source": "DICK-AUTOMOBILE",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=55647601777440",
@@ -2040,6 +2040,12 @@
   }
  ],
  "evenements": [
+  {
+   "date": "2026-11-27",
+   "type": "retrait",
+   "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=53009337275008",
+   "texte": "Retirée (probablement vendue) : Leon Cupra 2024, 22 250 €, après 29 j en ligne (Dick Automobile)"
+  },
   {
    "date": "2026-11-25",
    "type": "baisse",
@@ -2189,12 +2195,6 @@
    "type": "retrait",
    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=439697453",
    "texte": "Retirée (probablement vendue) : Golf 7 GTI 2015, 18 999 €, après au moins 32 j en ligne (CAR-Riesling)"
-  },
-  {
-   "date": "2026-11-12",
-   "type": "rafale",
-   "url": null,
-   "texte": "Haas Automobile publie d'un coup 3 nouvelles Opel Astra"
   }
  ],
  "sources": [
@@ -2210,11 +2210,6 @@
    "vendues": 0,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 16,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-28",
      "uniques": 16,
@@ -2359,6 +2354,11 @@
      "date": "2026-11-26",
      "uniques": 16,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 16,
+     "etat": "ok"
     }
    ]
   },
@@ -2374,11 +2374,6 @@
    "vendues": 5,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 9,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-28",
      "uniques": 9,
@@ -2523,6 +2518,11 @@
      "date": "2026-11-26",
      "uniques": 9,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 9,
+     "etat": "ok"
     }
    ]
   },
@@ -2538,11 +2538,6 @@
    "vendues": 1,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 19,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-28",
      "uniques": 21,
@@ -2687,6 +2682,11 @@
      "date": "2026-11-26",
      "uniques": 21,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 21,
+     "etat": "ok"
     }
    ]
   },
@@ -2702,11 +2702,6 @@
    "vendues": 14,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 40,
-     "etat": "ok"
-    },
     {
      "date": "2026-10-28",
      "uniques": 37,
@@ -2851,6 +2846,11 @@
      "date": "2026-11-26",
      "uniques": 40,
      "etat": "ok"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 40,
+     "etat": "ok"
     }
    ]
   },
@@ -2866,11 +2866,6 @@
    "vendues": 40,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 38,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-28",
      "uniques": 47,
@@ -3015,6 +3010,11 @@
      "date": "2026-11-26",
      "uniques": 38,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 38,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3030,11 +3030,6 @@
    "vendues": 0,
    "baisses_prix": 0,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 60,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-28",
      "uniques": 59,
@@ -3179,6 +3174,11 @@
      "date": "2026-11-26",
      "uniques": 0,
      "etat": "erreur"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 0,
+     "etat": "erreur"
     }
    ]
   },
@@ -3188,17 +3188,12 @@
    "ville": "Bebra",
    "url": "https://home.mobile.de/DICK-AUTOMOBILE",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
-   "en_stock": 323,
+   "message": "lecture partielle (3 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "en_stock": 305,
    "arrivees": 46,
-   "vendues": 121,
+   "vendues": 139,
    "baisses_prix": 93,
    "volumes": [
-    {
-     "date": "2026-10-27",
-     "uniques": 301,
-     "etat": "incomplet"
-    },
     {
      "date": "2026-10-28",
      "uniques": 302,
@@ -3343,6 +3338,11 @@
      "date": "2026-11-26",
      "uniques": 280,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 250,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3392,6 +3392,11 @@
      "date": "2026-11-26",
      "uniques": 26,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 26,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3401,11 +3406,11 @@
    "ville": "Minden",
    "url": "https://home.mobile.de/AH-GLINICKE",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 297,
-   "arrivees": 13,
+   "arrivees": 9,
    "vendues": 12,
-   "baisses_prix": 76,
+   "baisses_prix": 48,
    "volumes": [
     {
      "date": "2026-11-19",
@@ -3441,6 +3446,11 @@
      "date": "2026-11-26",
      "uniques": 266,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 247,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3450,11 +3460,11 @@
    "ville": "Südharz",
    "url": "https://home.mobile.de/AUTOHAUS-WORCH",
    "verdict": "attention",
-   "message": "lecture partielle (0 lues sur 238 affichées) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (3 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 240,
-   "arrivees": 49,
+   "arrivees": 24,
    "vendues": 2,
-   "baisses_prix": 50,
+   "baisses_prix": 42,
    "volumes": [
     {
      "date": "2026-11-19",
@@ -3490,6 +3500,11 @@
      "date": "2026-11-26",
      "uniques": 230,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 174,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3499,11 +3514,11 @@
    "ville": "Alzey",
    "url": "https://home.mobile.de/CREUSEN",
    "verdict": "attention",
-   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (4 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 164,
-   "arrivees": 20,
+   "arrivees": 17,
    "vendues": 0,
-   "baisses_prix": 28,
+   "baisses_prix": 19,
    "volumes": [
     {
      "date": "2026-11-19",
@@ -3539,6 +3554,11 @@
      "date": "2026-11-26",
      "uniques": 138,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 99,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3548,10 +3568,10 @@
    "ville": "Fritzlar",
    "url": "https://home.mobile.de/AUTOHAUS-RANGE",
    "verdict": "attention",
-   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (3 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 247,
-   "arrivees": 5,
-   "vendues": 6,
+   "arrivees": 0,
+   "vendues": 3,
    "baisses_prix": 0,
    "volumes": [
     {
@@ -3588,6 +3608,11 @@
      "date": "2026-11-26",
      "uniques": 209,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 189,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3597,11 +3622,11 @@
    "ville": "Dießen am Ammersee",
    "url": "https://home.mobile.de/AUTOHAUS-SCHUERER",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 105,
-   "arrivees": 12,
+   "arrivees": 9,
    "vendues": 7,
-   "baisses_prix": 77,
+   "baisses_prix": 68,
    "volumes": [
     {
      "date": "2026-11-19",
@@ -3637,6 +3662,11 @@
      "date": "2026-11-26",
      "uniques": 100,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 80,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3646,11 +3676,11 @@
    "ville": "Dettingen/Erms",
    "url": "https://home.mobile.de/RRFAHRZEUGHANDEL",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 125,
    "arrivees": 8,
    "vendues": 0,
-   "baisses_prix": 3,
+   "baisses_prix": 2,
    "volumes": [
     {
      "date": "2026-11-19",
@@ -3686,6 +3716,11 @@
      "date": "2026-11-26",
      "uniques": 109,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 97,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3695,7 +3730,7 @@
    "ville": "Waldshut-Tiengen",
    "url": "https://home.mobile.de/STOLLBOETTNERGMBH",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 101,
    "arrivees": 19,
    "vendues": 0,
@@ -3735,6 +3770,11 @@
      "date": "2026-11-26",
      "uniques": 82,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 60,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3744,9 +3784,9 @@
    "ville": "Georgsmarienhütte",
    "url": "https://home.mobile.de/AUTOTEILEKOCHGEORGSMARIENHUETTE",
    "verdict": "attention",
-   "message": "lecture partielle (1 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
+   "message": "lecture partielle (2 page(s) illisible(s)) : les annonces non revues ne sont comptées vendues qu'après 3 jours d'absence.",
    "en_stock": 142,
-   "arrivees": 3,
+   "arrivees": 2,
    "vendues": 1,
    "baisses_prix": 2,
    "volumes": [
@@ -3784,6 +3824,11 @@
      "date": "2026-11-26",
      "uniques": 122,
      "etat": "incomplet"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 120,
+     "etat": "incomplet"
     }
    ]
   },
@@ -3795,7 +3840,7 @@
    "verdict": "panne",
    "message": "source illisible ce matin : aucune annonce récupérée. Ce n'est pas un marché calme.",
    "en_stock": 503,
-   "arrivees": 7,
+   "arrivees": 3,
    "vendues": 0,
    "baisses_prix": 7,
    "volumes": [
@@ -3833,9 +3878,14 @@
      "date": "2026-11-26",
      "uniques": 0,
      "etat": "erreur"
+    },
+    {
+     "date": "2026-11-27",
+     "uniques": 0,
+     "etat": "erreur"
     }
    ]
   }
  ],
- "annonces_suivies": 2481
+ "annonces_suivies": 2463
 }
